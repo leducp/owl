@@ -21,14 +21,13 @@ namespace owl
     {
     public:
         ULN200x();
-        virtual ~ULN200x();
+        virtual ~ULN200x() = default;
 
         hresult sleep(bool shallSleep) override;
-        hresult setStepResolution(uint16_t resolution) override;
+        hresult setResolution(uint16_t resolution) override;
 
     private:
-        void step_cw() override;
-        void step_ccw() override;
+        void doStep() override;
 
         uint8_t const* cw_;
         uint8_t const* ccw_;

@@ -5,29 +5,35 @@
 
 namespace owl
 {
+    enum Direction
+    {
+        CW,
+        CCW
+    };
+
     class AbstractStepper
     {
     public:
         AbstractStepper() = default;
         virtual ~AbstractStepper() = default;
 
-        virtual hresult setStepResolution(uint16_t resolution) { return E_NOT_SUPPORTED; }
+        virtual hresult setResolution(uint16_t resolution) { return E_NOT_SUPPORTED; }
         int resolution() const { return resolution_; }
 
-        void setDirection(bool dir) { direction_ = dir; }
+        void setDirection(enum Direction dir);
         bool direction() const { return direction_; }
 
-        void tick();
+        void step();
 
         virtual hresult sleep(bool shallSleep) { return E_NOT_SUPPORTED; }
 
     protected:
-        virtual void step_cw() {};
-        virtual void step_ccw() {};
+        virtual void doStep();
 
         int resolution_{1};
+        int step_increment_{1};
         
-        bool direction_{true};
+        Direction direction_{Direction::CW};
         int32_t position_{0};
     };
 }

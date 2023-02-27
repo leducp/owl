@@ -2,17 +2,22 @@
 
 namespace owl
 {
-    void AbstractStepper::tick()
+    void AbstractStepper::setDirection(Direction dir)
     {
-        if (direction_)
+        direction_ = dir;
+        if (dir == CW)
         {
-            step_cw();
-            ++position_;
+            step_increment_ = 1;
         }
         else
         {
-            step_ccw();
-            --position_;
+            step_increment_ = -1;
         }
+    }
+
+    void AbstractStepper::step()
+    {
+        doStep();
+        position_ += step_increment_;
     }
 }

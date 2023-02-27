@@ -11,17 +11,12 @@ namespace owl
         index_ = 0;
     }
 
-    ULN200x::~ULN200x()
-    {
-        
-    }
-
     hresult ULN200x::sleep(bool shallSleep)
     {
         return E_NOT_SUPPORTED;
     }
 
-    hresult ULN200x::setStepResolution(uint16_t resolution)
+    hresult ULN200x::setResolution(uint16_t resolution)
     {
         if (resolution > 2)
         {
@@ -36,16 +31,17 @@ namespace owl
         return S_OK;
     }
 
-    void ULN200x::step_cw() 
+
+    void ULN200x::doStep()
     {
-        PORTD = cw_[index_ & mask_] << 3;
+        if (direction_ == CW)
+        {
+            PORTD = cw_[index_ & mask_] << 3;
+        }
+        else
+        {
+            PORTD = ccw_[index_ & mask_] << 3;
+        }
         ++index_;
     }
-
-    void ULN200x::step_ccw() 
-    {
-        PORTD = ccw_[index_ & mask_] << 3;
-        ++index_;
-    }
-
 }
