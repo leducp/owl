@@ -5,22 +5,22 @@
 
 namespace owl
 {
-    enum Direction
-    {
-        CW,
-        CCW
-    };
-
     class AbstractStepper
     {
     public:
+        enum Direction
+        {
+            CW,
+            CCW
+        };
+
         AbstractStepper() = default;
         virtual ~AbstractStepper() = default;
 
         virtual hresult setResolution(uint16_t resolution) { return E_NOT_SUPPORTED; }
         int resolution() const { return resolution_; }
 
-        void setDirection(enum Direction dir);
+        void setDirection(Direction dir);
         bool direction() const { return direction_; }
 
         void step();
