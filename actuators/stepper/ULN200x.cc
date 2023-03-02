@@ -1,8 +1,9 @@
 #include "ULN200x.h"
-#include <avr/io.h>
+//#include <avr/io.h>
 
 namespace owl
 {
+    /*
     ULN200x::ULN200x()
     {
         cw_  = CW_SEQUENCES[0];
@@ -44,4 +45,5 @@ namespace owl
         }
         ++index_;
     }
+    */
 }

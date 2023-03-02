@@ -2,6 +2,7 @@
 #define OWL_ULN200X_H
 
 #include "AbstractStepper.h"
+#include "hal/gpio.h"
 
 namespace owl
 {
