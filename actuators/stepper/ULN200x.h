@@ -18,22 +18,25 @@ namespace owl
         {0x09,0x01,0x03,0x02,0x06,0x04,0x0c,0x08}
     };
 
-    class ULN200x : public AbstractStepper
+    class ULN200x final : public AbstractStepper
     {
     public:
-        ULN200x();
-        virtual ~ULN200x() = default;
+        ULN200x(gpio::Port port, int offset);
+        ~ULN200x() override = default;
 
-        hresult sleep(bool shallSleep) override;
+        hresult standby(bool enableStandby) override;
         hresult setResolution(uint16_t resolution) override;
 
     private:
         void doStep() override;
+        void doDirection() override;
 
-        uint8_t const* cw_;
-        uint8_t const* ccw_;
+        uint8_t const* sequence_;
         uint8_t mask_;
         uint8_t index_{0};
+
+        gpio::Port port_;
+        int offset_;
     };
 }
 

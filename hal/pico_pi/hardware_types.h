@@ -5,7 +5,7 @@
 
 namespace owl
 {
-    using port_size = int32_t;
+    using port_size = uint32_t;
 }
 
 #endif

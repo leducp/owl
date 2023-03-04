@@ -22,12 +22,30 @@ add_compile_options(-Wall
         )
 
 set(OWL_SRCS    ${CMAKE_CURRENT_SOURCE_DIR}/actuators/stepper/AbstractStepper.cc
+                ${CMAKE_CURRENT_SOURCE_DIR}/actuators/stepper/A4988.cc
                 ${CMAKE_CURRENT_SOURCE_DIR}/actuators/stepper/ULN200x.cc
 
+                ${CMAKE_CURRENT_SOURCE_DIR}/actuators/stepper/ULN200x.cc
+
+                ${CMAKE_CURRENT_SOURCE_DIR}/sensors/SHT31.cc
+                #${CMAKE_CURRENT_SOURCE_DIR}/common/Time.cc
+
                 ${CMAKE_CURRENT_SOURCE_DIR}/hal/pico_pi/gpio.cc
-                
+                ${CMAKE_CURRENT_SOURCE_DIR}/hal/pico_pi/i2c.cc
+                ${CMAKE_CURRENT_SOURCE_DIR}/hal/pico_pi/Time.cc
+
 )
 
 add_library(owl STATIC ${OWL_SRCS})
-target_include_directories(owl PUBLIC ${CMAKE_SOURCE_DIR})
+target_include_directories(owl PUBLIC ${CMAKE_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/common)
+
+target_link_libraries(owl pico_stdlib hardware_i2c)
 target_include_directories(owl PUBLIC ${CMAKE_SOURCE_DIR}/hal/pico_pi)
+
+add_executable(owl_example example_a4988.cc)
+target_link_libraries(owl_example owl)
+
+add_executable(owl_sht31 example_sht31.cc)
+target_link_libraries(owl_sht31 owl hardware_i2c)
+pico_enable_stdio_uart(owl_sht31 0)
+pico_enable_stdio_usb(owl_sht31 1)

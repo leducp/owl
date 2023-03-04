@@ -13,6 +13,8 @@ namespace owl
         {
             step_increment_ = -1;
         }
+
+        doDirection();
     }
 
     void AbstractStepper::step()

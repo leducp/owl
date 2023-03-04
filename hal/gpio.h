@@ -18,11 +18,8 @@ namespace owl::gpio
         Port(int port, port_size mask);
         ~Port();
 
-        void put(bool value);
-        void set();
-        void clear();
-        void toogle();
-        port_size get();
+        Port& operator=(port_size bits);
+        operator port_size();
 
     private:
         port_size mask_;
@@ -38,11 +35,12 @@ namespace owl::gpio
         ~Pad();
 
         void setDirection(Direction dir);
-        void put(bool value);
-        void set();
-        void clear();
-        void toogle();
-        bool get();
+
+        Pad& operator=(bool value);
+        operator bool();
+
+    private:
+        int pin_;
     };
 }
 

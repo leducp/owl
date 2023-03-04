@@ -33,6 +33,10 @@ namespace owl
     // Errors - first bit to 1 
     constexpr hresult E_UNKNOWN_ERRNO               { 0x80000001, "Unknown errno" };
     constexpr hresult E_NOT_SUPPORTED               { 0x80000002, "Not supported" };
+    constexpr hresult E_INVALID                     { 0x80000003, "Invalid value" };
+    constexpr hresult E_GENERIC                     { 0x80000004, "Generic error" };
+    constexpr hresult E_TIMEOUT                     { 0x80000005, "Timeout"       };
+    constexpr hresult E_BAD_CHECKSUM                { 0x80000006, "Bad checksum"  };
 
 }
 

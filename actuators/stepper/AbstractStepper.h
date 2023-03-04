@@ -1,7 +1,7 @@
 #ifndef OWL_ABSTRACT_STEPPER_H
 #define OWL_ABSTRACT_STEPPER_H
 
-#include "../../common/Error.h"
+#include "Error.h"
 
 namespace owl
 {
@@ -25,10 +25,11 @@ namespace owl
 
         void step();
 
-        virtual hresult sleep(bool shallSleep) { return E_NOT_SUPPORTED; }
+        virtual hresult standby(bool enableStandby) { return E_NOT_SUPPORTED; }
 
     protected:
-        virtual void doStep();
+        virtual void doStep() = 0;
+        virtual void doDirection() = 0;
 
         int resolution_{1};
         int step_increment_{1};
