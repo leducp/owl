@@ -26,7 +26,7 @@ namespace owl
         }
     }
 
-    hresult I2C::transmit(uint8_t address, 
+    hresult I2C::transmit(uint8_t address,
             uint8_t const* txbytes, uint8_t tx_size,
             uint8_t* rxbytes, uint8_t rx_size, nanoseconds timeout)
     {
@@ -48,9 +48,9 @@ namespace owl
             if (r < 0)
             {
                 return E_GENERIC;
-            } 
+            }
         }
 
-        return S_OK;
+        return error::S_OK;
     }
 }

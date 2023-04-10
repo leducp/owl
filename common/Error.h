@@ -1,7 +1,7 @@
 #ifndef OWL_ERROR_H
 #define OWL_ERROR_H
 
-#include <stdint.h>
+#include <cstdint>
 
 namespace owl
 {
@@ -19,25 +19,27 @@ namespace owl
 
         constexpr operator unsigned int() const noexcept { return code_; }
 
-        constexpr uint32_t code() const noexcept     { return code_; }
-        constexpr char const* what() const noexcept { return what_; }
+        constexpr uint32_t code() const noexcept        { return code_; }
+        constexpr char const* what() const noexcept     { return what_; }
 
     private:
         uint32_t code_{0};
         char const* what_{"Unknown hresult"};
     };
 
-    // Success - first bit to 0
-    constexpr hresult S_OK                          { 0x00000000, "Success" };
+    namespace error
+    {
+        // Success - first bit to 0
+        constexpr hresult S_OK                          { 0x00000000, "Success" };
 
-    // Errors - first bit to 1 
-    constexpr hresult E_UNKNOWN_ERRNO               { 0x80000001, "Unknown errno" };
-    constexpr hresult E_NOT_SUPPORTED               { 0x80000002, "Not supported" };
-    constexpr hresult E_INVALID                     { 0x80000003, "Invalid value" };
-    constexpr hresult E_GENERIC                     { 0x80000004, "Generic error" };
-    constexpr hresult E_TIMEOUT                     { 0x80000005, "Timeout"       };
-    constexpr hresult E_BAD_CHECKSUM                { 0x80000006, "Bad checksum"  };
-
+        // Errors - first bit to 1
+        constexpr hresult E_UNKNOWN_ERRNO               { 0x80000001, "Unknown errno" };
+        constexpr hresult E_NOT_SUPPORTED               { 0x80000002, "Not supported" };
+        constexpr hresult E_INVALID                     { 0x80000003, "Invalid value" };
+        constexpr hresult E_GENERIC                     { 0x80000004, "Generic error" };
+        constexpr hresult E_TIMEOUT                     { 0x80000005, "Timeout"       };
+        constexpr hresult E_BAD_CHECKSUM                { 0x80000006, "Bad checksum"  };
+    }
 }
 
 #endif

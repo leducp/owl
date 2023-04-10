@@ -17,7 +17,7 @@ namespace owl
         AbstractStepper() = default;
         virtual ~AbstractStepper() = default;
 
-        virtual hresult setResolution(uint16_t resolution) { return E_NOT_SUPPORTED; }
+        virtual hresult setResolution(uint16_t resolution) { return error::E_NOT_SUPPORTED; }
         int resolution() const { return resolution_; }
 
         void setDirection(Direction dir);
@@ -25,7 +25,7 @@ namespace owl
 
         void step();
 
-        virtual hresult standby(bool enableStandby) { return E_NOT_SUPPORTED; }
+        virtual hresult standby(bool enableStandby) { return error::E_NOT_SUPPORTED; }
 
     protected:
         virtual void doStep() = 0;
@@ -33,7 +33,7 @@ namespace owl
 
         int resolution_{1};
         int step_increment_{1};
-        
+
         Direction direction_{Direction::CW};
         int32_t position_{0};
     };

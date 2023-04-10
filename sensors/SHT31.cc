@@ -13,7 +13,7 @@ namespace owl
     {
         uint8_t txdata[] = {0x24, 0x00}; // hr measurement, no stretching
         hresult rc = bus_.write(address_, txdata, 2);
-        if (rc != S_OK)
+        if (rc != error::S_OK)
         {
             return rc;
         }
@@ -22,7 +22,7 @@ namespace owl
 
         uint8_t rxdata[6];
         rc = bus_.read(address_, rxdata, 6);
-        if (rc != S_OK)
+        if (rc != error::S_OK)
         {
             return rc;
         }
@@ -32,7 +32,7 @@ namespace owl
         uint8_t computed_crc_temp = crc8(rxdata + 0, 2, 0x31, 0xff);
         if (crc_temp != computed_crc_temp)
         {
-            return E_BAD_CHECKSUM;
+            return error::E_BAD_CHECKSUM;
         }
 
         int raw_hr   = (rxdata[3] << 8) | rxdata[4];
@@ -40,12 +40,12 @@ namespace owl
         uint8_t computed_crc_hr = crc8(rxdata + 3, 2, 0x31, 0xff);
         if (crc_hr != computed_crc_hr)
         {
-            return E_BAD_CHECKSUM;
+            return error::E_BAD_CHECKSUM;
         }
 
         temperature_ = -45 * precision_ + ((175 * raw_temp * precision_) / 65535);
         humidity_ = (100 * raw_hr * precision_) / 65535;
 
-        return S_OK;
+        return error::S_OK;
     }
 }

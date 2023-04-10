@@ -13,21 +13,21 @@ namespace owl
 
     hresult ULN200x::standby(bool enableStandby)
     {
-        return E_NOT_SUPPORTED;
+        return error::E_NOT_SUPPORTED;
     }
 
     hresult ULN200x::setResolution(uint16_t resolution)
     {
         if ((resolution > 2) or (resolution < 1))
         {
-            return E_NOT_SUPPORTED;
+            return error::E_NOT_SUPPORTED;
         }
 
         resolution_ = resolution;
         mask_ = (4 * resolution_) - 1;
         doDirection(); // Update sequence in use
 
-        return S_OK;
+        return error::S_OK;
     }
 
     void ULN200x::doStep()
