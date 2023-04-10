@@ -1,21 +1,30 @@
 #include "actuators/stepper/A4988.h"
 #include "Time.h"
 
+
+#include "pico/stdlib.h"
+#include "hardware/pwm.h"
+
 using namespace owl;
 
-constexpr nanoseconds SPEED = 2ms;
+constexpr nanoseconds SPEED = 200us;
 
 int main()
 {
-    gpio::Pad step(16);
-    gpio::Pad dir(17);
-    gpio::Pad sleep(18);
+    gpio::Pad dir(13);
+    gpio::Pad step(14);
+    gpio::Pad sleep(15);
 
-    gpio::Pad m0(19);
-    gpio::Pad m1(20);
-    gpio::Pad m2(21);
+    gpio::Pad m0(18);
+    gpio::Pad m1(19);
+    gpio::Pad m2(20);
+
+    gpio::Pad reset(21);
+    reset.setDirection(gpio::Direction::OUT);
+    reset = 1;
 
     A4988 driver(step, dir, sleep, m0, m1, m2);
+    driver.setResolution(16);
 
     while (true)
     {

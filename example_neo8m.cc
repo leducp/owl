@@ -3,7 +3,8 @@
 #include <vector>
 #include <string_view>
 #include <iostream>
-#include  <charconv>
+#include <charconv>
+#include <cmath>
 
 using namespace owl;
 
@@ -48,7 +49,7 @@ int main()
             ++i;
         }
 
-
+/*
         printf("rec (%d): %.*s", i, i, frame);
         char checksum = 0;
         for (int k = 1; k < (i - 5); ++k) // -5 => *cc\r\n
@@ -56,7 +57,7 @@ int main()
             checksum ^= frame[k];
         }
         printf("=> %02x\n", checksum);
-
+*/
         struct Command
         {
             std::string_view emitter;
@@ -92,22 +93,19 @@ int main()
             continue;
         }
 
-
         int fix_time = 0;
         float latitude = 0;
-        char latitude_or;
         float longitude = 0;
-        char longitude_or;
         int fix_qual = 0;
         int satellites = 0;
         float DOP;
         float MSL;
-        float WGS84;
 
         auto extract = [&](int index, auto& output)
         {
             auto field = cmd.parameters.at(index);
             auto result = std::from_chars(field.data(), field.data() + field.size(), output);
+            (void) result;
         };
 
         extract(0, fix_time);
@@ -117,15 +115,31 @@ int main()
         extract(6, satellites);
         extract(7, DOP);
         extract(8, MSL);
-        extract(9, WGS84);
+
+        latitude = int(latitude / 100)  + std::fmod(latitude, 100) / 60;
+        longitude = int(longitude / 100) + std::fmod(longitude, 100) / 60;
+        if (cmd.parameters.at(2) == "S")
+        {
+            latitude = -latitude;
+        }
+        if (cmd.parameters.at(4) == "W")
+        {
+            longitude = -longitude;
+        }
+
+        if (fix_qual == 0)
+        {
+            printf("Waiting for GPS fix\n");
+            continue;
+        }
+
 
         printf("---- INFO ----\n");
         printf("latitude:  %f\n", latitude);
         printf("longitude: %f\n", longitude);
         printf("fix:   %d\n", fix_qual);
         printf("sats : %d\n", satellites);
-        printf("DOP:   %f\n", DOP);
-        printf("MSL:   %f\n", MSL);
-        printf("WGS84: %f\n", WGS84);
+        printf("DOP:   %.3f\n", DOP);
+        printf("MSL:   %.3f\n", MSL);
     }
 }

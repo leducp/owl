@@ -58,10 +58,15 @@ if (DEFINED PICOPI)
     target_include_directories(owl PUBLIC ${CMAKE_SOURCE_DIR}/hal/pico_pi)
 
     add_executable(owl_example example_a4988.cc)
-    target_link_libraries(owl_example owl)
+    target_link_libraries(owl_example owl hardware_pwm)
 
     add_executable(owl_sht31 example_sht31.cc)
     target_link_libraries(owl_sht31 owl hardware_i2c)
-    pico_enable_stdio_uart(owl_sht31 0)
-    pico_enable_stdio_usb(owl_sht31 1)
+    pico_enable_stdio_uart(owl_sht31 1)
+
+    add_executable(owl_pwm example_pwm.cc)
+    target_link_libraries(owl_pwm owl hardware_pwm)
+    pico_enable_stdio_uart(owl_pwm 1)
+
+    #pico_enable_stdio_usb(owl_sht31 1)
 endif()

@@ -38,7 +38,7 @@ namespace owl
             int r = i2c_write_blocking(static_cast<i2c_inst_t*>(bus_), address, txbytes, tx_size, repeated_start);
             if (r < 0)
             {
-                return E_GENERIC;
+                return error::E_GENERIC;
             }
         }
 
@@ -47,7 +47,7 @@ namespace owl
             int r = i2c_read_blocking(static_cast<i2c_inst_t*>(bus_), address, rxbytes, rx_size, false);
             if (r < 0)
             {
-                return E_GENERIC;
+                return error::E_GENERIC;
             }
         }
 

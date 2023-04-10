@@ -25,7 +25,7 @@ namespace owl
 
     hresult A4988::standby(bool enableStandby)
     {
-        sleep_ = enableStandby;
+        sleep_ = not enableStandby;
         return error::S_OK;
     }
 
