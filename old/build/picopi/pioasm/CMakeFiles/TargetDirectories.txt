@@ -1,0 +1,3 @@
+/home/leduc/projet/owl/build/picopi/pioasm/CMakeFiles/pioasm.dir
+/home/leduc/projet/owl/build/picopi/pioasm/CMakeFiles/edit_cache.dir
+/home/leduc/projet/owl/build/picopi/pioasm/CMakeFiles/rebuild_cache.dir

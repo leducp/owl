@@ -1,0 +1,25 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "chibios:board=arduino-nano\nchibios:familly=avr\nchibios:kernel=rt",
+    "requires": [
+     "1"
+    ],
+    "path": "../../conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "chibios/21.11.2@user/testing",
+    "options": "board=arduino-nano\nfamilly=avr\nkernel=rt",
+    "package_id": "f686117aef357975ba127f6d52d6375af3880930",
+    "prev": "0",
+    "modified": true,
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=avr\n[options]\n[build_requires]\n[env]\n"
+}

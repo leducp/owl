@@ -1,0 +1,1840 @@
+Membre d'archive inclu pour satisfaire la référence par fichier (symbole)
+
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+                              (vfprintf)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+                              (vfscanf)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+                              CMakeFiles/test.dir/main.cc.obj (halInit)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o) (stInit)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o) (sdInit)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o) (boardInit)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o) (hal_lld_init)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o) (_pal_lld_init)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o) (st_lld_init)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                              CMakeFiles/test.dir/main.cc.obj (SD1)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                              CMakeFiles/test.dir/main.cc.obj (chSysInit)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o) (chVTDoTickI)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o) (chSchIsPreemptionRequired)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o) (chInstanceObjectInit)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o) (__thd_object_init)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o) (ch_debug)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o) (chEvtBroadcastFlagsI)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o) (__core_init)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o) (__heap_init)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o) (_port_switch)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o) (iqObjectInit)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o) (chRFCUCollectFaultsI)
+/home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o) (chMtxObjectInit)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o (exit)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                              CMakeFiles/test.dir/main.cc.obj (__do_copy_data)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                              CMakeFiles/test.dir/main.cc.obj (__do_clear_bss)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o) (__prologue_saves__)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o) (__epilogue_restores__)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o) (__adddi3)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o) (isspace)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr_P.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o) (strchr_P)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o) (memcpy)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o) (strcmp)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fgetc.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o) (fgetc)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fputc.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o) (fputc)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ungetc.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o) (ungetc)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o) (__ultoa_invert)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o) (__ctype_isfalse)
+
+Allocation des symboles communs
+Symbole commun      taille            fichier
+
+ch_system           0x3               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+__avr_in_isr        0x1               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ch0                 0x43              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ch_memcore          0x4               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+SD1                 0x49              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+
+Sections d'entrée éliminées
+
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+ .text          0x0000000000000000        0x0 CMakeFiles/test.dir/main.cc.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test.dir/main.cc.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test.dir/main.cc.obj
+ .text.chHeapAlloc
+                0x0000000000000000       0x34 CMakeFiles/test.dir/main.cc.obj
+ .rodata._ZN3owlL4S_OKE
+                0x0000000000000000        0x6 CMakeFiles/test.dir/main.cc.obj
+ .rodata._ZN3owlL15E_UNKNOWN_ERRNOE
+                0x0000000000000000        0x6 CMakeFiles/test.dir/main.cc.obj
+ .rodata._ZN3owlL15E_NOT_SUPPORTEDE
+                0x0000000000000000        0x6 CMakeFiles/test.dir/main.cc.obj
+ .rodata._ZN3owlL12CW_SEQUENCESE
+                0x0000000000000000       0x10 CMakeFiles/test.dir/main.cc.obj
+ .rodata._ZN3owlL13CCW_SEQUENCESE
+                0x0000000000000000       0x10 CMakeFiles/test.dir/main.cc.obj
+ .text._Znwj    0x0000000000000000       0x26 CMakeFiles/test.dir/main.cc.obj
+ .text._Znaj    0x0000000000000000       0x26 CMakeFiles/test.dir/main.cc.obj
+ .text._ZdlPv   0x0000000000000000       0x22 CMakeFiles/test.dir/main.cc.obj
+ .text._ZdaPv   0x0000000000000000       0x22 CMakeFiles/test.dir/main.cc.obj
+ .text._ZdaPvj  0x0000000000000000       0x2c CMakeFiles/test.dir/main.cc.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+ .rodata        0x0000000000000000       0x24 CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+ .rodata._ZN3owlL4S_OKE
+                0x0000000000000000        0x6 CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+ .rodata._ZN3owlL15E_UNKNOWN_ERRNOE
+                0x0000000000000000        0x6 CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+ .rodata._ZN3owlL15E_NOT_SUPPORTEDE
+                0x0000000000000000        0x6 CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .group         0x0000000000000000        0xc CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .rodata._ZN3owlL4S_OKE
+                0x0000000000000000        0x6 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .rodata._ZN3owlL15E_UNKNOWN_ERRNOE
+                0x0000000000000000        0x6 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .text.stGetAlarm
+                0x0000000000000000        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .text.stIsAlarmActive
+                0x0000000000000000        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text.sdStop   0x0000000000000000       0x2c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text.sdPutWouldBlock
+                0x0000000000000000       0x14 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text.sdGetWouldBlock
+                0x0000000000000000       0x14 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text.sdControl
+                0x0000000000000000        0x6 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .text._pal_lld_enablepadevent
+                0x0000000000000000        0x2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .text.sd_lld_stop
+                0x0000000000000000       0x16 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .text.chSysWaitSystemState
+                0x0000000000000000        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .text.chSysHalt
+                0x0000000000000000       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .text.chSysGetIdleThreadX
+                0x0000000000000000        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .text.chSysIntegrityCheckI
+                0x0000000000000000      0x12a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .text.chSysGetStatusAndLockX
+                0x0000000000000000       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .text.chSysRestoreStatusX
+                0x0000000000000000       0x14 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .text.chVTDoSetContinuousI
+                0x0000000000000000       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .text.chVTGetRemainingIntervalI
+                0x0000000000000000       0x66 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .text.chVTGetTimeStampI
+                0x0000000000000000       0x88 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .text.chVTResetTimeStampI
+                0x0000000000000000       0x24 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .text.chSchDoYieldS
+                0x0000000000000000       0x92 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .text.chSchSelectFirst
+                0x0000000000000000       0x7a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdCreateSuspended
+                0x0000000000000000        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdCreate
+                0x0000000000000000       0x1e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdStart
+                0x0000000000000000       0x1a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdAddRef
+                0x0000000000000000        0xe /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdRelease
+                0x0000000000000000       0x34 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdWait
+                0x0000000000000000       0x44 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdSetPriority
+                0x0000000000000000       0x28 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdTerminate
+                0x0000000000000000        0xe /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdSleepUntil
+                0x0000000000000000       0x22 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdSleepUntilWindowed
+                0x0000000000000000       0x3e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdYield
+                0x0000000000000000        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdSuspendS
+                0x0000000000000000       0x2a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdSuspendTimeoutS
+                0x0000000000000000       0x24 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdResumeI
+                0x0000000000000000       0x1c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdResumeS
+                0x0000000000000000       0x18 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdResume
+                0x0000000000000000       0x18 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text.chThdDequeueAllI
+                0x0000000000000000       0x46 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .text.chRegFirstThread
+                0x0000000000000000       0x10 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .text.chRegNextThread
+                0x0000000000000000       0x1c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .text.chRegFindThreadByName
+                0x0000000000000000       0x64 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .text.chRegFindThreadByPointer
+                0x0000000000000000       0x46 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtRegisterMaskWithFlagsI
+                0x0000000000000000       0x2c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtRegisterMaskWithFlags
+                0x0000000000000000       0x30 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtUnregister
+                0x0000000000000000       0x2a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtGetAndClearEventsI
+                0x0000000000000000       0x16 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtGetAndClearEvents
+                0x0000000000000000       0x1a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtAddEvents
+                0x0000000000000000       0x14 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtGetAndClearFlagsI
+                0x0000000000000000        0xc /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtGetAndClearFlags
+                0x0000000000000000       0x10 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtSignal
+                0x0000000000000000        0xe /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtBroadcastFlags
+                0x0000000000000000        0xe /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtDispatch
+                0x0000000000000000       0x8e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtWaitOne
+                0x0000000000000000       0x40 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtWaitAny
+                0x0000000000000000       0x3c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtWaitAll
+                0x0000000000000000       0x40 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtWaitOneTimeout
+                0x0000000000000000       0x56 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtWaitAnyTimeout
+                0x0000000000000000       0x52 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text.chEvtWaitAllTimeout
+                0x0000000000000000       0x58 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .text.chCoreAllocFromBaseI
+                0x0000000000000000       0x4a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .text.chCoreAllocFromTopI
+                0x0000000000000000       0x44 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .text.chCoreAllocFromBase
+                0x0000000000000000       0x50 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .text.chCoreGetStatusX
+                0x0000000000000000       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .text.chHeapObjectInit
+                0x0000000000000000       0x42 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .text.chHeapAllocAligned
+                0x0000000000000000      0x1e2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .text.chHeapStatus
+                0x0000000000000000       0xa0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .text.iqResetI
+                0x0000000000000000       0x1a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .text.iqGetI   0x0000000000000000       0x76 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .text.iqReadI  0x0000000000000000       0x38 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .text.oqResetI
+                0x0000000000000000       0x24 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .text.oqPutI   0x0000000000000000       0x8a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .text.oqWriteI
+                0x0000000000000000       0x38 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .text.chRFCUGetAndClearFaultsI
+                0x0000000000000000       0x4a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .text          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+ .data          0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+ .bss           0x0000000000000000        0x0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+ .text.chMtxTryLock
+                0x0000000000000000       0x3c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+ .text.chMtxTryLockS
+                0x0000000000000000       0x36 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+ .text.chMtxUnlockS
+                0x0000000000000000       0x8e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+ .text.chMtxUnlockAllS
+                0x0000000000000000       0xa2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+ .text.chMtxUnlockAll
+                0x0000000000000000        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+ .text.libgcc   0x0000000000000000       0x12 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr_P.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr_P.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr_P.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+ .text.avr-libc
+                0x0000000000000000       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fgetc.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fgetc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fgetc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fputc.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fputc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fputc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ungetc.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ungetc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ungetc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+
+Configuration mémoire
+
+Nom              Origine            Longueur           Attributs
+text             0x0000000000000000 0x0000000000008000 xr
+data             0x0000000000800100 0x0000000000000800 rw !x
+eeprom           0x0000000000810000 0x0000000000000400 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Script de l'éditeurs de liens and table de projection mémoire
+
+Adresse de la section .data initialisé à 0x800100
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a
+LOAD CMakeFiles/test.dir/main.cc.obj
+LOAD CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+LOAD CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+LOAD libowl.a
+LOAD /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x0000000000800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x0000000000008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x0000000000000800]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x0000000000000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x2b12
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000068                . = ALIGN (0x2)
+                0x0000000000000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000068        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data  0x0000000000000068       0x17 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+ .progmem.data  0x000000000000007f        0xb /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+                0x000000000000008a                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000008a                __ctors_start = .
+ *(.ctors)
+                0x000000000000008a                __ctors_end = .
+                0x000000000000008a                __dtors_start = .
+ *(.dtors)
+                0x000000000000008a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000008a        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x000000000000008a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000008a        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000096       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000096                __do_copy_data
+ .init4         0x00000000000000ac       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000000ac                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000000bc        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000000c2        0x2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000000c2                __vector_22
+                0x00000000000000c2                __vector_1
+                0x00000000000000c2                __vector_24
+                0x00000000000000c2                __vector_12
+                0x00000000000000c2                __bad_interrupt
+                0x00000000000000c2                __vector_6
+                0x00000000000000c2                __vector_3
+                0x00000000000000c2                __vector_23
+                0x00000000000000c2                __vector_25
+                0x00000000000000c2                __vector_13
+                0x00000000000000c2                __vector_17
+                0x00000000000000c2                __vector_7
+                0x00000000000000c2                __vector_5
+                0x00000000000000c2                __vector_4
+                0x00000000000000c2                __vector_9
+                0x00000000000000c2                __vector_2
+                0x00000000000000c2                __vector_21
+                0x00000000000000c2                __vector_15
+                0x00000000000000c2                __vector_8
+                0x00000000000000c2                __vector_14
+                0x00000000000000c2                __vector_10
+                0x00000000000000c2                __vector_16
+                0x00000000000000c2                __vector_20
+                0x00000000000000c4                . = ALIGN (0x2)
+ *(.text.*)
+ .text.avr-libc
+                0x00000000000000c4      0x230 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+                0x00000000000000c4                vfprintf
+ .text.avr-libc
+                0x00000000000002f4      0x3b6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+                0x00000000000004ac                vfscanf
+ .text.chRegSetThreadName
+                0x00000000000006aa       0x2c CMakeFiles/test.dir/main.cc.obj
+ .text._ZdlPvj  0x00000000000006d6       0x2c CMakeFiles/test.dir/main.cc.obj
+                0x00000000000006d6                _ZdlPvj
+ .text._ZL7Thread1Pv
+                0x0000000000000702      0x258 CMakeFiles/test.dir/main.cc.obj
+ .text.main     0x000000000000095a       0x58 CMakeFiles/test.dir/main.cc.obj
+                0x000000000000095a                main
+ .text._ZN3owl15AbstractStepper4tickEv
+                0x00000000000009b2       0xa0 CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+                0x00000000000009b2                _ZN3owl15AbstractStepper4tickEv
+ .text._ZN3owl15AbstractStepper17setStepResolutionEj
+                0x0000000000000a52       0xc6 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000a52                _ZN3owl15AbstractStepper17setStepResolutionEj
+ .text._ZN3owl15AbstractStepper5sleepEb
+                0x0000000000000b18       0xc4 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000b18                _ZN3owl15AbstractStepper5sleepEb
+ .text._ZN3owl15AbstractStepper7step_cwEv
+                0x0000000000000bdc       0x1a CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000bdc                _ZN3owl15AbstractStepper7step_cwEv
+ .text._ZN3owl15AbstractStepper8step_ccwEv
+                0x0000000000000bf6       0x1a CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000bf6                _ZN3owl15AbstractStepper8step_ccwEv
+ .text._ZN3owl15AbstractStepperC2Ev
+                0x0000000000000c10       0x4e CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000c10                _ZN3owl15AbstractStepperC1Ev
+                0x0000000000000c10                _ZN3owl15AbstractStepperC2Ev
+ .text._ZN3owl15AbstractStepperD2Ev
+                0x0000000000000c5e       0x38 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000c5e                _ZN3owl15AbstractStepperD1Ev
+                0x0000000000000c5e                _ZN3owl15AbstractStepperD2Ev
+ .text._ZN3owl15AbstractStepperD0Ev
+                0x0000000000000c96       0x28 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000c96                _ZN3owl15AbstractStepperD0Ev
+ .text._ZN3owl7ULN200xC2Ev
+                0x0000000000000cbe       0x64 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000cbe                _ZN3owl7ULN200xC2Ev
+                0x0000000000000cbe                _ZN3owl7ULN200xC1Ev
+ .text._ZN3owl7ULN200xD2Ev
+                0x0000000000000d22       0x3e CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000d22                _ZN3owl7ULN200xD2Ev
+                0x0000000000000d22                _ZN3owl7ULN200xD1Ev
+ .text._ZN3owl7ULN200xD0Ev
+                0x0000000000000d60       0x28 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000d60                _ZN3owl7ULN200xD0Ev
+ .text._ZN3owl7ULN200x5sleepEb
+                0x0000000000000d88       0xc4 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000d88                _ZN3owl7ULN200x5sleepEb
+ .text._ZN3owl7ULN200x17setStepResolutionEj
+                0x0000000000000e4c      0x14c CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000e4c                _ZN3owl7ULN200x17setStepResolutionEj
+ .text._ZN3owl7ULN200x7step_cwEv
+                0x0000000000000f98       0x64 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000f98                _ZN3owl7ULN200x7step_cwEv
+ .text._ZN3owl7ULN200x8step_ccwEv
+                0x0000000000000ffc       0x64 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000000ffc                _ZN3owl7ULN200x8step_ccwEv
+ .text.halInit  0x0000000000001060        0xe /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+                0x0000000000001060                halInit
+ .text.stInit   0x000000000000106e        0x2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                0x000000000000106e                stInit
+ .text.stGetCounter
+                0x0000000000001070        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                0x0000000000001070                stGetCounter
+ .text.stStartAlarm
+                0x000000000000107a       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                0x000000000000107a                stStartAlarm
+ .text.stStopAlarm
+                0x000000000000108c        0x6 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                0x000000000000108c                stStopAlarm
+ .text.stSetAlarm
+                0x0000000000001092        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                0x0000000000001092                stSetAlarm
+ .text._readt   0x000000000000109c        0x6 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text._read    0x00000000000010a2        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text._writet  0x00000000000010ac        0x6 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text._write   0x00000000000010b2        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text._gett    0x00000000000010bc        0x6 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text._get     0x00000000000010c2        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text._putt    0x00000000000010cc        0x6 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text._put     0x00000000000010d2        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text._ctl     0x00000000000010dc        0x6 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .text.sdInit   0x00000000000010e2        0x2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                0x00000000000010e2                sdInit
+ .text.sdObjectInit
+                0x00000000000010e4       0x5a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                0x00000000000010e4                sdObjectInit
+ .text.sdStart  0x000000000000113e       0x1a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                0x000000000000113e                sdStart
+ .text.sdIncomingDataI
+                0x0000000000001158       0x4c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                0x0000000000001158                sdIncomingDataI
+ .text.sdRequestDataI
+                0x00000000000011a4       0x36 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                0x00000000000011a4                sdRequestDataI
+ .text.boardInit
+                0x00000000000011da        0x8 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+                0x00000000000011da                boardInit
+ .text.hal_lld_init
+                0x00000000000011e2        0x2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+                0x00000000000011e2                hal_lld_init
+ .text._pal_lld_init
+                0x00000000000011e4       0x1c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                0x00000000000011e4                _pal_lld_init
+ .text._pal_lld_setgroupmode
+                0x0000000000001200       0x48 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                0x0000000000001200                _pal_lld_setgroupmode
+ .text._pal_lld_setlineid
+                0x0000000000001248        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                0x0000000000001248                _pal_lld_setlineid
+ .text._pal_lld_getportfromline
+                0x0000000000001252        0x6 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                0x0000000000001252                _pal_lld_getportfromline
+ .text._pal_lld_getpadfromline
+                0x0000000000001258        0x2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                0x0000000000001258                _pal_lld_getpadfromline
+ .text.__vector_11
+                0x000000000000125a       0x56 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+                0x000000000000125a                __vector_11
+ .text.st_lld_init
+                0x00000000000012b0       0x2e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+                0x00000000000012b0                st_lld_init
+ .text.notify1  0x00000000000012de        0xc /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .text.__vector_18
+                0x00000000000012ea       0x82 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                0x00000000000012ea                __vector_18
+ .text.__vector_19
+                0x000000000000136c       0x6e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                0x000000000000136c                __vector_19
+ .text.sd_lld_init
+                0x00000000000013da        0xe /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                0x00000000000013da                sd_lld_init
+ .text.sd_lld_start
+                0x00000000000013e8       0x62 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                0x00000000000013e8                sd_lld_start
+ .text.chSysInit
+                0x000000000000144a       0x2a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                0x000000000000144a                chSysInit
+ .text.chSysTimerHandlerI
+                0x0000000000001474        0x2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                0x0000000000001474                chSysTimerHandlerI
+ .text.vt_insert_first.constprop.5
+                0x0000000000001476       0x9e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .text.vt_set_alarm
+                0x0000000000001514       0x70 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .text.vt_enqueue.constprop.4
+                0x0000000000001584       0xe0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .text.chVTDoSetI
+                0x0000000000001664       0x10 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+                0x0000000000001664                chVTDoSetI
+ .text.chVTDoResetI
+                0x0000000000001674       0xce /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+                0x0000000000001674                chVTDoResetI
+ .text.chVTDoTickI
+                0x0000000000001742      0x184 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+                0x0000000000001742                chVTDoTickI
+ .text.__sch_wakeup
+                0x00000000000018c6       0xaa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .text.chSchReadyI
+                0x0000000000001970       0x48 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                0x0000000000001970                chSchReadyI
+ .text.chSchGoSleepS
+                0x00000000000019b8       0x38 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                0x00000000000019b8                chSchGoSleepS
+ .text.chSchGoSleepTimeoutS
+                0x00000000000019f0       0x6e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                0x00000000000019f0                chSchGoSleepTimeoutS
+ .text.chSchWakeupS
+                0x0000000000001a5e       0x9c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                0x0000000000001a5e                chSchWakeupS
+ .text.chSchIsPreemptionRequired
+                0x0000000000001afa       0x20 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                0x0000000000001afa                chSchIsPreemptionRequired
+ .text.chSchDoPreemption
+                0x0000000000001b1a       0x7e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                0x0000000000001b1a                chSchDoPreemption
+ .text.chSchPreemption
+                0x0000000000001b98       0x1e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                0x0000000000001b98                chSchPreemption
+ .text.chSchRescheduleS
+                0x0000000000001bb6        0x2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                0x0000000000001bb6                chSchRescheduleS
+ .text.__idle_thread
+                0x0000000000001bb8        0x2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .text.chInstanceObjectInit
+                0x0000000000001bba       0xf0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+                0x0000000000001bba                chInstanceObjectInit
+ .text.__thd_object_init
+                0x0000000000001caa       0x5e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                0x0000000000001caa                __thd_object_init
+ .text.chThdCreateSuspendedI
+                0x0000000000001d08       0xc2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                0x0000000000001d08                chThdCreateSuspendedI
+ .text.chThdCreateI
+                0x0000000000001dca        0x4 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                0x0000000000001dca                chThdCreateI
+ .text.chThdCreateStatic
+                0x0000000000001dce       0x92 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                0x0000000000001dce                chThdCreateStatic
+ .text.chThdExitS
+                0x0000000000001e60       0x64 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                0x0000000000001e60                chThdExitS
+ .text.chThdExit
+                0x0000000000001ec4        0x4 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                0x0000000000001ec4                chThdExit
+ .text.chThdSleep
+                0x0000000000001ec8        0xc /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                0x0000000000001ec8                chThdSleep
+ .text.chThdEnqueueTimeoutS
+                0x0000000000001ed4       0x3a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                0x0000000000001ed4                chThdEnqueueTimeoutS
+ .text.chThdDequeueNextI
+                0x0000000000001f0e       0x32 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                0x0000000000001f0e                chThdDequeueNextI
+ .text.chEvtSignalI
+                0x0000000000001f40       0x2c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+                0x0000000000001f40                chEvtSignalI
+ .text.chEvtBroadcastFlagsI
+                0x0000000000001f6c       0x4a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+                0x0000000000001f6c                chEvtBroadcastFlagsI
+ .text.__core_init
+                0x0000000000001fb6       0x16 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+                0x0000000000001fb6                __core_init
+ .text.chCoreAllocFromTop
+                0x0000000000001fcc       0x4a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+                0x0000000000001fcc                chCoreAllocFromTop
+ .text.__heap_init
+                0x0000000000002016       0x1a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+                0x0000000000002016                __heap_init
+ .text.chHeapFree
+                0x0000000000002030       0xe8 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+                0x0000000000002030                chHeapFree
+ .text._port_switch
+                0x0000000000002118       0x5e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+                0x0000000000002118                _port_switch
+ .text._port_thread_start
+                0x0000000000002176        0xa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+                0x0000000000002176                _port_thread_start
+ .text.iq_read  0x0000000000002180       0xae /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .text.oq_write
+                0x000000000000222e       0xae /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .text.iqObjectInit
+                0x00000000000022dc       0x34 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                0x00000000000022dc                iqObjectInit
+ .text.iqPutI   0x0000000000002310       0x56 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                0x0000000000002310                iqPutI
+ .text.iqGetTimeout
+                0x0000000000002366       0x74 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                0x0000000000002366                iqGetTimeout
+ .text.iqReadTimeout
+                0x00000000000023da       0x96 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                0x00000000000023da                iqReadTimeout
+ .text.oqObjectInit
+                0x0000000000002470       0x34 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                0x0000000000002470                oqObjectInit
+ .text.oqPutTimeout
+                0x00000000000024a4       0x80 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                0x00000000000024a4                oqPutTimeout
+ .text.oqGetI   0x0000000000002524       0x58 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                0x0000000000002524                oqGetI
+ .text.oqWriteTimeout
+                0x000000000000257c       0x96 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                0x000000000000257c                oqWriteTimeout
+ .text.chRFCUCollectFaultsI
+                0x0000000000002612       0x2a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+                0x0000000000002612                chRFCUCollectFaultsI
+ .text.chMtxObjectInit
+                0x000000000000263c       0x10 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                0x000000000000263c                chMtxObjectInit
+ .text.chMtxLockS
+                0x000000000000264c      0x18c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                0x000000000000264c                chMtxLockS
+ .text.chMtxLock
+                0x00000000000027d8        0x8 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                0x00000000000027d8                chMtxLock
+ .text.chMtxUnlock
+                0x00000000000027e0       0xa0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                0x00000000000027e0                chMtxUnlock
+ .text.libgcc.prologue
+                0x0000000000002880       0x38 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+                0x0000000000002880                __prologue_saves__
+ .text.libgcc.prologue
+                0x00000000000028b8       0x36 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+                0x00000000000028b8                __epilogue_restores__
+ .text.avr-libc
+                0x00000000000028ee       0x10 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+                0x00000000000028ee                isspace
+ .text.avr-libc
+                0x00000000000028fe       0x16 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr_P.o)
+                0x00000000000028fe                strchr_P
+ .text.avr-libc
+                0x0000000000002914       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+                0x0000000000002914                memcpy
+ .text.avr-libc
+                0x0000000000002926       0x7c /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fgetc.o)
+                0x0000000000002926                fgetc
+ .text.avr-libc
+                0x00000000000029a2       0x78 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fputc.o)
+                0x00000000000029a2                fputc
+ .text.avr-libc
+                0x0000000000002a1a       0x32 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ungetc.o)
+                0x0000000000002a1a                ungetc
+ .text.avr-libc
+                0x0000000000002a4c       0xbc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                0x0000000000002a4c                __ultoa_invert
+ .text.avr-libc
+                0x0000000000002b08        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                0x0000000000002b08                __ctype_isfalse
+                0x0000000000002b0c                __ctype_istrue
+                0x0000000000002b0e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000002b0e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                0x0000000000002b0e                exit
+                0x0000000000002b0e                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000002b0e        0x4 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000002b12                _etext = .
+
+.data           0x0000000000800100      0x102 address de chargement 0x0000000000002b12
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x0000000000800100       0x3b CMakeFiles/test.dir/main.cc.obj
+ .rodata        0x000000000080013b       0x24 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ *(.rodata*)
+ .rodata._ZN3owlL15E_NOT_SUPPORTEDE
+                0x000000000080015f        0x6 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .rodata._ZN3owlL12CW_SEQUENCESE
+                0x0000000000800165       0x10 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .rodata._ZN3owlL13CCW_SEQUENCESE
+                0x0000000000800175       0x10 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .rodata._ZTVN3owl7ULN200xE
+                0x0000000000800185       0x10 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000800185                _ZTVN3owl7ULN200xE
+ .rodata._ZTVN3owl15AbstractStepperE
+                0x0000000000800195       0x10 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                0x0000000000800195                _ZTVN3owl15AbstractStepperE
+ .rodata.vmt    0x00000000008001a5       0x14 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .rodata.pal_default_config
+                0x00000000008001b9        0x6 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+                0x00000000008001b9                pal_default_config
+ .rodata.default_config
+                0x00000000008001bf        0x3 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .rodata.str1.1
+                0x00000000008001c2        0x3 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .rodata.ch_core0_cfg
+                0x00000000008001c5        0x6 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                0x00000000008001c5                ch_core0_cfg
+ .rodata.str1.1
+                0x00000000008001cb        0x5 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .rodata.str1.1
+                0x00000000008001d0        0x7 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .rodata.ch_debug
+                0x00000000008001d7       0x2b /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+                0x00000000008001d7                ch_debug
+ *(.gnu.linkonce.r*)
+                0x0000000000800202                . = ALIGN (0x2)
+                0x0000000000800202                _edata = .
+                0x0000000000800202                PROVIDE (__data_end, .)
+
+.bss            0x0000000000800202      0x210
+                0x0000000000800202                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss._ZL9waThread1
+                0x0000000000800202       0x83 CMakeFiles/test.dir/main.cc.obj
+ .bss.ch_c0_idle_thread_wa
+                0x0000000000800285       0x6b /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .bss.static_heap.3242
+                0x00000000008002f0       0x80 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .bss.default_heap
+                0x0000000000800370        0xe /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ *(COMMON)
+ COMMON         0x000000000080037e       0x49 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                0x000000000080037e                SD1
+ COMMON         0x00000000008003c7       0x46 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                0x00000000008003c7                ch_system
+                0x00000000008003ca                ch0
+ COMMON         0x000000000080040d        0x4 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+                0x000000000080040d                ch_memcore
+ COMMON         0x0000000000800411        0x1 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+                0x0000000000800411                __avr_in_isr
+                0x0000000000800412                PROVIDE (__bss_end, .)
+                0x0000000000002b12                __data_load_start = LOADADDR (.data)
+                0x0000000000002c14                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800412        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800412                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+                                         0x12 (taille avant relaxe)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+ .comment       0x0000000000000011       0x12 CMakeFiles/test.dir/main.cc.obj
+ .comment       0x0000000000000011       0x12 CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+ .comment       0x0000000000000011       0x12 CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .comment       0x0000000000000011       0x12 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fgetc.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fputc.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ungetc.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x6f8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ .debug_aranges
+                0x0000000000000020       0x50 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .debug_aranges
+                0x0000000000000070       0xa0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .debug_aranges
+                0x0000000000000110       0x20 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+ .debug_aranges
+                0x0000000000000130       0x20 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+ .debug_aranges
+                0x0000000000000150       0x48 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .debug_aranges
+                0x0000000000000198       0x28 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .debug_aranges
+                0x00000000000001c0       0x48 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .debug_aranges
+                0x0000000000000208       0x58 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .debug_aranges
+                0x0000000000000260       0x68 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .debug_aranges
+                0x00000000000002c8       0x68 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .debug_aranges
+                0x0000000000000330       0x28 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .debug_aranges
+                0x0000000000000358       0xe8 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .debug_aranges
+                0x0000000000000440       0x38 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .debug_aranges
+                0x0000000000000478       0xb0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .debug_aranges
+                0x0000000000000528       0x48 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .debug_aranges
+                0x0000000000000570       0x40 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .debug_aranges
+                0x00000000000005b0       0x28 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ .debug_aranges
+                0x00000000000005d8       0x98 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .debug_aranges
+                0x0000000000000670       0x28 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .debug_aranges
+                0x0000000000000698       0x60 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x13c2b
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .debug_info    0x00000000000005f4      0x8ae /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ .debug_info    0x0000000000000ea2      0x9b5 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .debug_info    0x0000000000001857     0x189f /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .debug_info    0x00000000000030f6      0x832 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+ .debug_info    0x0000000000003928      0x7ad /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+ .debug_info    0x00000000000040d5      0xa6c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .debug_info    0x0000000000004b41      0x865 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .debug_info    0x00000000000053a6      0xf92 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .debug_info    0x0000000000006338      0xc5e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .debug_info    0x0000000000006f96     0x1619 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .debug_info    0x00000000000085af     0x1151 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .debug_info    0x0000000000009700      0xdb1 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .debug_info    0x000000000000a4b1     0x1f6b /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .debug_info    0x000000000000c41c      0xef1 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .debug_info    0x000000000000d30d     0x16b9 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .debug_info    0x000000000000e9c6      0xbde /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .debug_info    0x000000000000f5a4      0xc6b /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .debug_info    0x000000000001020f      0x861 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ .debug_info    0x0000000000010a70     0x1917 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .debug_info    0x0000000000012387      0x819 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .debug_info    0x0000000000012ba0     0x108b /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+
+.debug_abbrev   0x0000000000000000     0x40d7
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .debug_abbrev  0x00000000000005a2      0x18b /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ .debug_abbrev  0x000000000000072d      0x1fd /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .debug_abbrev  0x000000000000092a      0x420 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .debug_abbrev  0x0000000000000d4a      0x13d /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+ .debug_abbrev  0x0000000000000e87      0x11f /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+ .debug_abbrev  0x0000000000000fa6      0x1a3 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .debug_abbrev  0x0000000000001149      0x188 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .debug_abbrev  0x00000000000012d1      0x364 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .debug_abbrev  0x0000000000001635      0x3a2 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .debug_abbrev  0x00000000000019d7      0x3ba /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .debug_abbrev  0x0000000000001d91      0x384 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .debug_abbrev  0x0000000000002115      0x2fa /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .debug_abbrev  0x000000000000240f      0x494 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .debug_abbrev  0x00000000000028a3      0x31e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .debug_abbrev  0x0000000000002bc1      0x477 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .debug_abbrev  0x0000000000003038      0x298 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .debug_abbrev  0x00000000000032d0      0x2bf /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .debug_abbrev  0x000000000000358f      0x19d /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ .debug_abbrev  0x000000000000372c      0x416 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .debug_abbrev  0x0000000000003b42      0x177 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .debug_abbrev  0x0000000000003cb9      0x41e /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+
+.debug_line     0x0000000000000000     0x5355
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .debug_line    0x000000000000001a      0x266 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ .debug_line    0x0000000000000280      0x24c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .debug_line    0x00000000000004cc      0x4ca /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .debug_line    0x0000000000000996      0x1a8 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+ .debug_line    0x0000000000000b3e      0x167 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+ .debug_line    0x0000000000000ca5      0x270 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .debug_line    0x0000000000000f15      0x209 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .debug_line    0x000000000000111e      0x39d /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .debug_line    0x00000000000014bb      0x417 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .debug_line    0x00000000000018d2      0x659 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .debug_line    0x0000000000001f2b      0x527 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .debug_line    0x0000000000002452      0x274 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .debug_line    0x00000000000026c6      0x983 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .debug_line    0x0000000000003049      0x320 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .debug_line    0x0000000000003369      0x71f /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .debug_line    0x0000000000003a88      0x32d /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .debug_line    0x0000000000003db5      0x427 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .debug_line    0x00000000000041dc      0x294 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ .debug_line    0x0000000000004470      0x779 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .debug_line    0x0000000000004be9      0x180 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .debug_line    0x0000000000004d69      0x5ec /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+
+.debug_frame    0x0000000000000000     0x13d0
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x24 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ .debug_frame   0x0000000000000024       0x84 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .debug_frame   0x00000000000000a8      0x19c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .debug_frame   0x0000000000000244       0x24 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+ .debug_frame   0x0000000000000268       0x24 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+ .debug_frame   0x000000000000028c       0x74 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .debug_frame   0x0000000000000300       0x88 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .debug_frame   0x0000000000000388      0x11c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .debug_frame   0x00000000000004a4       0xa0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .debug_frame   0x0000000000000544      0x1d4 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .debug_frame   0x0000000000000718      0x13c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .debug_frame   0x0000000000000854       0x64 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .debug_frame   0x00000000000008b8      0x294 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .debug_frame   0x0000000000000b4c       0x6c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .debug_frame   0x0000000000000bb8      0x22c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .debug_frame   0x0000000000000de4       0x74 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .debug_frame   0x0000000000000e58      0x118 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .debug_frame   0x0000000000000f70       0x34 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ .debug_frame   0x0000000000000fa4      0x2dc /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .debug_frame   0x0000000000001280       0x64 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .debug_frame   0x00000000000012e4       0xec /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+
+.debug_str      0x0000000000000000     0x1f63
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .debug_str     0x0000000000000208      0x52a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+                                        0x5e9 (taille avant relaxe)
+ .debug_str     0x0000000000000732       0xf7 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                                        0x64e (taille avant relaxe)
+ .debug_str     0x0000000000000829      0x3c9 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                                        0x962 (taille avant relaxe)
+ .debug_str     0x0000000000000bf2       0x2c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+                                        0x5c1 (taille avant relaxe)
+ .debug_str     0x0000000000000c1e       0x32 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+                                        0x58a (taille avant relaxe)
+ .debug_str     0x0000000000000c50      0x11d /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                                        0x6ad (taille avant relaxe)
+ .debug_str     0x0000000000000d6d      0x109 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+                                        0x660 (taille avant relaxe)
+ .debug_str     0x0000000000000e76       0x87 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                        0x8d7 (taille avant relaxe)
+ .debug_str     0x0000000000000efd      0x1c3 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                                        0x7c4 (taille avant relaxe)
+ .debug_str     0x00000000000010c0      0x256 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+                                        0x849 (taille avant relaxe)
+ .debug_str     0x0000000000001316      0x16a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                                        0x78c (taille avant relaxe)
+ .debug_str     0x0000000000001480      0x2b3 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+                                        0x8e4 (taille avant relaxe)
+ .debug_str     0x0000000000001733      0x257 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                        0x926 (taille avant relaxe)
+ .debug_str     0x000000000000198a       0x8b /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+                                        0x81f (taille avant relaxe)
+ .debug_str     0x0000000000001a15      0x1a4 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+                                        0x7fe (taille avant relaxe)
+ .debug_str     0x0000000000001bb9       0xb9 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+                                        0x658 (taille avant relaxe)
+ .debug_str     0x0000000000001c72      0x112 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+                                        0x696 (taille avant relaxe)
+ .debug_str     0x0000000000001d84       0x39 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+                                        0x5b2 (taille avant relaxe)
+ .debug_str     0x0000000000001dbd       0xdd /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                        0x7e6 (taille avant relaxe)
+ .debug_str     0x0000000000001e9a       0x35 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+                                        0x595 (taille avant relaxe)
+ .debug_str     0x0000000000001ecf       0x94 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                                        0x6c8 (taille avant relaxe)
+
+.debug_loc      0x0000000000000000     0x6807
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x7c /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .debug_loc     0x000000000000007c      0x8a9 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .debug_loc     0x0000000000000925      0x135 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .debug_loc     0x0000000000000a5a       0xcb /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .debug_loc     0x0000000000000b25      0x36a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .debug_loc     0x0000000000000e8f      0x1ee /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .debug_loc     0x000000000000107d      0xc45 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .debug_loc     0x0000000000001cc2      0x649 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .debug_loc     0x000000000000230b      0x1bd /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .debug_loc     0x00000000000024c8     0x100f /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .debug_loc     0x00000000000034d7      0x33f /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .debug_loc     0x0000000000003816      0x981 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .debug_loc     0x0000000000004197      0x4cd /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .debug_loc     0x0000000000004664      0x921 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .debug_loc     0x0000000000004f85     0x125a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .debug_loc     0x00000000000061df       0xbe /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .debug_loc     0x000000000000629d      0x56a /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x960
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x10 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ .debug_ranges  0x0000000000000010       0x40 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+ .debug_ranges  0x0000000000000050       0xa8 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+ .debug_ranges  0x00000000000000f8       0x10 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+ .debug_ranges  0x0000000000000108       0x10 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+ .debug_ranges  0x0000000000000118       0x38 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+ .debug_ranges  0x0000000000000150       0x18 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+ .debug_ranges  0x0000000000000168       0x50 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+ .debug_ranges  0x00000000000001b8       0x90 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ .debug_ranges  0x0000000000000248      0x140 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ .debug_ranges  0x0000000000000388       0x58 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+ .debug_ranges  0x00000000000003e0       0x18 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ .debug_ranges  0x00000000000003f8      0x120 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+ .debug_ranges  0x0000000000000518       0x88 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ .debug_ranges  0x00000000000005a0       0xb8 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+ .debug_ranges  0x0000000000000658       0x98 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ .debug_ranges  0x00000000000006f0       0x48 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+ .debug_ranges  0x0000000000000738       0x18 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+ .debug_ranges  0x0000000000000750      0x118 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+ .debug_ranges  0x0000000000000868       0x18 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+ .debug_ranges  0x0000000000000880       0xe0 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(test elf32-avr)
+LOAD linker stubs
+
+Table de référence croisé
+
+Symbole                                           Fichier
+SD1                                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+_ZN3owl15AbstractStepper17setStepResolutionEj     CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl15AbstractStepper4tickEv                   CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+                                                  CMakeFiles/test.dir/main.cc.obj
+_ZN3owl15AbstractStepper5sleepEb                  CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl15AbstractStepper7step_cwEv                CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl15AbstractStepper8step_ccwEv               CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl15AbstractStepperC1Ev                      CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl15AbstractStepperC2Ev                      CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl15AbstractStepperD0Ev                      CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl15AbstractStepperD1Ev                      CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl15AbstractStepperD2Ev                      CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl7ULN200x17setStepResolutionEj              CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl7ULN200x5sleepEb                           CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl7ULN200x7step_cwEv                         CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl7ULN200x8step_ccwEv                        CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl7ULN200xC1Ev                               CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                                                  CMakeFiles/test.dir/main.cc.obj
+_ZN3owl7ULN200xC2Ev                               CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl7ULN200xD0Ev                               CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl7ULN200xD1Ev                               CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZN3owl7ULN200xD2Ev                               CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZTVN3owl15AbstractStepperE                       CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZTVN3owl7ULN200xE                                CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_ZdaPv                                            CMakeFiles/test.dir/main.cc.obj
+_ZdaPvj                                           CMakeFiles/test.dir/main.cc.obj
+_ZdlPv                                            CMakeFiles/test.dir/main.cc.obj
+_ZdlPvj                                           CMakeFiles/test.dir/main.cc.obj
+                                                  CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+_Znaj                                             CMakeFiles/test.dir/main.cc.obj
+_Znwj                                             CMakeFiles/test.dir/main.cc.obj
+__DATA_REGION_LENGTH__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__DATA_REGION_ORIGIN__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__EEPROM_REGION_LENGTH__                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__FUSE_REGION_LENGTH__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__TEXT_REGION_LENGTH__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__adddi3                                          /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_adddi3.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+__avr_in_isr                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+__bad_interrupt                                   /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__bss_end                                         /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__core_init                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+__ctype_isfalse                                   /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+__ctype_istrue                                    /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+__data_end                                        /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+__do_copy_data                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                                                  CMakeFiles/test.dir/actuators/Stepper/ULN200x.cc.obj
+                                                  CMakeFiles/test.dir/actuators/Stepper/AbstractStepper.cc.obj
+                                                  CMakeFiles/test.dir/main.cc.obj
+__epilogue_restores__                             /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+__heap_end                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__heap_init                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+__init                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__prologue_saves__                                /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+__stack                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__thd_object_init                                 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+__ultoa_invert                                    /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+__vector_1                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_16                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_18                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_19                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+_exit                                             /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+_pal_lld_enablepadevent                           /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+_pal_lld_getpadfromline                           /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+_pal_lld_getportfromline                          /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+_pal_lld_init                                     /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+_pal_lld_setgroupmode                             /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+_pal_lld_setlineid                                /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_pal_lld.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+_port_switch                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+_port_thread_start                                /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+boardInit                                         /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+ch0                                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+chCoreAllocFromBase                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+chCoreAllocFromBaseI                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+chCoreAllocFromTop                                /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+chCoreAllocFromTopI                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+chCoreGetStatusX                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+chEvtAddEvents                                    /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtBroadcastFlags                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtBroadcastFlagsI                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+chEvtDispatch                                     /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtGetAndClearEvents                            /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtGetAndClearEventsI                           /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtGetAndClearFlags                             /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtGetAndClearFlagsI                            /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtRegisterMaskWithFlags                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtRegisterMaskWithFlagsI                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtSignal                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtSignalI                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtUnregister                                   /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtWaitAll                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtWaitAllTimeout                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtWaitAny                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtWaitAnyTimeout                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtWaitOne                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chEvtWaitOneTimeout                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+chHeapAllocAligned                                /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+chHeapFree                                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+chHeapObjectInit                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+chHeapStatus                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+chInstanceObjectInit                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+chMtxLock                                         /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+chMtxLockS                                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+chMtxObjectInit                                   /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+chMtxTryLock                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+chMtxTryLockS                                     /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+chMtxUnlock                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemheaps.o)
+chMtxUnlockAll                                    /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+chMtxUnlockAllS                                   /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+chMtxUnlockS                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+chRFCUCollectFaultsI                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+chRFCUGetAndClearFaultsI                          /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chrfcu.o)
+chRegFindThreadByName                             /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+chRegFindThreadByPointer                          /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+chRegFirstThread                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+chRegNextThread                                   /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+chSchDoPreemption                                 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+chSchDoYieldS                                     /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chSchGoSleepS                                     /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chSchGoSleepTimeoutS                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chSchIsPreemptionRequired                         /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+chSchPreemption                                   /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+chSchReadyI                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chSchRescheduleS                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmtx.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chevents.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+chSchSelectFirst                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+chSchWakeupS                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chSysGetIdleThreadX                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+chSysGetStatusAndLockX                            /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+chSysHalt                                         /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+chSysInit                                         /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+chSysIntegrityCheckI                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+chSysRestoreStatusX                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+chSysTimerHandlerI                                /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+chSysWaitSystemState                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+chThdAddRef                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdCreate                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdCreateI                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+chThdCreateStatic                                 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+chThdCreateSuspended                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdCreateSuspendedI                             /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdDequeueAllI                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+chThdDequeueNextI                                 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+chThdEnqueueTimeoutS                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+chThdExit                                         /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chcore.o)
+chThdExitS                                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdRelease                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdResume                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdResumeI                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdResumeS                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdSetPriority                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdSleep                                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+chThdSleepUntil                                   /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdSleepUntilWindowed                           /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdStart                                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdSuspendS                                     /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdSuspendTimeoutS                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdTerminate                                    /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdWait                                         /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chThdYield                                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+chVTDoResetI                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+chVTDoSetContinuousI                              /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+chVTDoSetI                                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chschd.o)
+chVTDoTickI                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+chVTGetRemainingIntervalI                         /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+chVTGetTimeStampI                                 /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+chVTResetTimeStampI                               /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+ch_core0_cfg                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+ch_debug                                          /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+ch_memcore                                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chmemcore.o)
+ch_system                                         /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chsys.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+exit                                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+fgetc                                             /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fgetc.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+fputc                                             /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(fputc.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+halInit                                           /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+hal_lld_init                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+iqGetI                                            /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+iqGetTimeout                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+iqObjectInit                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+iqPutI                                            /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+iqReadI                                           /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+iqReadTimeout                                     /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+iqResetI                                          /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+isspace                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+main                                              CMakeFiles/test.dir/main.cc.obj
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+memcpy                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+oqGetI                                            /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+oqObjectInit                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+oqPutI                                            /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+oqPutTimeout                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+oqResetI                                          /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+oqWriteI                                          /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+oqWriteTimeout                                    /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_queues.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+pal_default_config                                /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(board.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+sdControl                                         /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+sdGetWouldBlock                                   /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+sdIncomingDataI                                   /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+sdInit                                            /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+sdObjectInit                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+sdPutWouldBlock                                   /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+sdRequestDataI                                    /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+sdStart                                           /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+                                                  CMakeFiles/test.dir/main.cc.obj
+sdStop                                            /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+sd_lld_init                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+sd_lld_start                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+sd_lld_stop                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_serial.o)
+stGetAlarm                                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+stGetCounter                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chthreads.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chinstances.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+stInit                                            /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal.o)
+stIsAlarmActive                                   /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+stSetAlarm                                        /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+stStartAlarm                                      /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+stStopAlarm                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chvt.o)
+st_lld_init                                       /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st_lld.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(hal_st.o)
+strchr_P                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr_P.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+strcmp                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+                                                  /home/leduc/.conan/data/chibios/21.11.2/user/testing/package/f686117aef357975ba127f6d52d6375af3880930/lib/libch.a(chregistry.o)
+ungetc                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ungetc.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)
+vfprintf                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libprintf_min.a(vfprintf_min.o)
+vfscanf                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libscanf_min.a(vfscanf_min.o)

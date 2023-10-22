@@ -1,0 +1,22 @@
+{
+ "options": [
+  [
+   "chibios:board",
+   "arduino-nano"
+  ],
+  [
+   "chibios:familly",
+   "avr"
+  ],
+  [
+   "chibios:kernel",
+   "rt"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": null,
+  "channel": null
+ }
+}

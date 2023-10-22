@@ -1,0 +1,25 @@
+[settings]
+    arch=armv7
+
+[requires]
+    chibios/21.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=armv7
+
+[full_requires]
+    chibios/21.11.2@user/testing:3625404c4d807a945b92be1dc3c9ce9ecefdfd6d
+
+[full_options]
+    chibios:board=stm32f401c-discovery
+    chibios:familly=stm32
+    chibios:kernel=rt
+
+[recipe_hash]
+
+
+[env]
+

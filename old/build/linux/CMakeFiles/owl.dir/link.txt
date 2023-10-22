@@ -1,0 +1,2 @@
+/usr/bin/ar qc libowl.a CMakeFiles/owl.dir/actuators/stepper/AbstractStepper.cc.o CMakeFiles/owl.dir/actuators/stepper/A4988.cc.o CMakeFiles/owl.dir/actuators/stepper/ULN200x.cc.o CMakeFiles/owl.dir/sensors/SHT31.cc.o CMakeFiles/owl.dir/hal/linux/Time.cc.o CMakeFiles/owl.dir/hal/linux/Serial.cc.o CMakeFiles/owl.dir/hal/linux/hardware_types.cc.o
+/usr/bin/ranlib libowl.a

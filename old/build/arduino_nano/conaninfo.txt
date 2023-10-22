@@ -1,0 +1,25 @@
+[settings]
+    arch=avr
+
+[requires]
+    chibios/21.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=avr
+
+[full_requires]
+    chibios/21.11.2@user/testing:f686117aef357975ba127f6d52d6375af3880930
+
+[full_options]
+    chibios:board=arduino-nano
+    chibios:familly=avr
+    chibios:kernel=rt
+
+[recipe_hash]
+
+
+[env]
+

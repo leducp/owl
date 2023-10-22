@@ -1,0 +1,25 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "chibios:board=stm32f401c-discovery\nchibios:familly=stm32\nchibios:kernel=rt",
+    "requires": [
+     "1"
+    ],
+    "path": "../../conanfile_stm32.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "chibios/21.11.2@user/testing",
+    "options": "board=stm32f401c-discovery\nfamilly=stm32\nkernel=rt",
+    "package_id": "3625404c4d807a945b92be1dc3c9ce9ecefdfd6d",
+    "prev": "0",
+    "modified": true,
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=armv7\n[options]\n[build_requires]\n[env]\n"
+}

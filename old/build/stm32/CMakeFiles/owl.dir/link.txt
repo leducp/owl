@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libowl.a CMakeFiles/owl.dir/actuators/Stepper/AbstractStepper.cc.obj CMakeFiles/owl.dir/actuators/Stepper/ULN200x.cc.obj
+/usr/bin/arm-none-eabi-ranlib libowl.a

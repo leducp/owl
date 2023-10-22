@@ -1,0 +1,22 @@
+{
+ "options": [
+  [
+   "chibios:board",
+   "stm32f401c-discovery"
+  ],
+  [
+   "chibios:familly",
+   "stm32"
+  ],
+  [
+   "chibios:kernel",
+   "rt"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": null,
+  "channel": null
+ }
+}
