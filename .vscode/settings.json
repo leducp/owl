@@ -1,5 +1,25 @@
 {
     "files.associations": {
-        "drv8825.h": "c"
+        "drv8825.h": "c",
+        "algorithm": "cpp",
+        "cmath": "cpp",
+        "__bit_reference": "cpp",
+        "__node_handle": "cpp",
+        "bitset": "cpp",
+        "deque": "cpp",
+        "__memory": "cpp",
+        "limits": "cpp",
+        "optional": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "utility": "cpp",
+        "variant": "cpp"
     }
 }
