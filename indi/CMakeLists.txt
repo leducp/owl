@@ -21,10 +21,13 @@ configure_file(
     ${CMAKE_CURRENT_BINARY_DIR}/config.h
 )
 
+# Protocol
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../lib ${CMAKE_BINARY_DIR}/protocol)
+
 # indi driver
 add_executable(indi_owl ${CMAKE_CURRENT_SOURCE_DIR}/owl.cc)
-target_include_directories(indi_owl PRIVATE ${INDI_INCLUDE_DIR} ${CMAKE_BINARY_DIR})
-target_link_libraries(indi_owl ${INDI_LIBRARIES})
+target_include_directories(indi_owl PRIVATE  ${INDI_INCLUDE_DIR} ${CMAKE_BINARY_DIR})
+target_link_libraries(indi_owl ${INDI_LIBRARIES} owl_protocol)
 
 # tell cmake where to install our executable
 install(TARGETS indi_owl RUNTIME DESTINATION bin)
