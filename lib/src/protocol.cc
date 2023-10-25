@@ -5,45 +5,62 @@
 
 namespace owl
 {
-    void write_trace(int fd, char const* message)
+    void write_trace(Frame& frame, char const* message)
     {
-        owl::Header header;
-        header.type = owl::Type::TRACE;
-        /*
+        frame.write_start();
+
+        Header header;
+        header.type = Type::TRACE;
         header.size = strlen(message);
         if (header.size > 128)
         {
             header.size = 128;
         }
-        */
-        header.size = 4U;
-        ::write(fd, &header, sizeof(owl::Header));
-        ::write(fd, message, 4);
+
+        frame.write_data(&header, sizeof(Header));
+        frame.write_data(message, header.size);
+
+        frame.write_finalize();
     }
 
-    void write_feedback(int fd, Feedback const& feedback)
+    void write_feedback(Frame& frame, Feedback const& feedback)
     {
-        owl::Header header;
-        header.type = owl::Type::FEEDBACK;
-        header.size = sizeof(owl::Feedback);
+        frame.write_start();
 
-        ::write(fd, &header, sizeof(owl::Header));
-        ::write(fd, &feedback, header.size);
+        Header header;
+        header.type = Type::FEEDBACK;
+        header.size = sizeof(Feedback);
+
+        frame.write_data(&header, sizeof(Header));
+        frame.write_data(&feedback, header.size);
+
+        frame.write_finalize();
     }
 
-    int readData(int fd, uint8_t* buffer, int size)
+    void write_control(Frame& frame, Control const& control)
     {
-        int count = 0;
-        while (count != size)
-        {
-            int r = ::read(fd, buffer + count, size - count);
-            if (r < 0)
-            {
-                return r;
-            }
-            count += r;
-        }
+        frame.write_start();
 
-        return count;
+        Header header;
+        header.type = Type::CONTROL;
+        header.size = sizeof(Control);
+
+        frame.write_data(&header, sizeof(Header));
+        frame.write_data(&control, header.size);
+
+        frame.write_finalize();
+    }
+
+    void write_refresh(Frame& frame)
+    {
+        frame.write_start();
+
+        Header header;
+        header.type = Type::REFRESH;
+        header.size = 0;
+
+        frame.write_data(&header, sizeof(Header));
+
+        frame.write_finalize();
     }
 }

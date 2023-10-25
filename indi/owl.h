@@ -6,6 +6,7 @@
 #include <libindi/indipropertynumber.h>
 
 #include "protocol.h"
+#include "FrameIndi.h"
 
 namespace Connection
 {
@@ -37,16 +38,14 @@ protected:
     bool SetFocuserSpeed(int speed) override;
 
 private:
-    int readData(char* buffer, int size, int timeout, bool abort);
-    int readFrame(owl::Header& header, char* buffer);
-    void refresh();
-    void writeFrame(owl::Header const& header, char const* buffer);
 
     // Temperature in celcius degrees
     INumberVectorProperty TemperatureNP;
     INumber TemperatureN[1];
 
     owl::Control control;
+
+    owl::FrameIndi frame_{-1};
 };
 
 #endif

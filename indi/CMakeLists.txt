@@ -25,8 +25,9 @@ configure_file(
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../lib ${CMAKE_BINARY_DIR}/protocol)
 
 # indi driver
-add_executable(indi_owl ${CMAKE_CURRENT_SOURCE_DIR}/owl.cc)
+add_executable(indi_owl ${CMAKE_CURRENT_SOURCE_DIR}/owl.cc ${CMAKE_CURRENT_SOURCE_DIR}/FrameIndi.cc)
 target_include_directories(indi_owl PRIVATE  ${INDI_INCLUDE_DIR} ${CMAKE_BINARY_DIR})
+target_include_directories(owl_protocol PRIVATE  ${INDI_INCLUDE_DIR} ${CMAKE_BINARY_DIR})
 target_link_libraries(indi_owl ${INDI_LIBRARIES} owl_protocol)
 
 # tell cmake where to install our executable

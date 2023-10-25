@@ -1,4 +1,5 @@
 #include "Frame.h"
+#include <indidevapi.h>
 
 namespace owl
 {
@@ -26,7 +27,7 @@ namespace owl
 
         while (not is_started_)
         {
-            char c;
+            uint8_t c;
             if (read_byte(c) < 0)
             {
                 return false;
@@ -36,14 +37,16 @@ namespace owl
                 is_started_ = true;
             }
         }
+        IDLog("started!\n");
 
         while (true)
         {
-            char c;
+            uint8_t c;
             if (read_byte(c) < 0)
             {
                 return false;
             }
+            IDLog("got %x %c\n", c, c);
 
             if (is_escaped_)
             {
@@ -73,6 +76,7 @@ namespace owl
                 uint16_t computedCRC = hash_->finalize<uint16_t>();
 
                 // compare CRC
+                IDLog("CRC %x %x\n", crc, computedCRC);
                 if (crc != computedCRC)
                 {
                     //printf("wrong CRC (%02x vs %02x) - %d\n",
@@ -98,15 +102,34 @@ namespace owl
 
     bool Frame::write(void const* data, int size)
     {
-        if (write_byte(DELIMITER) < 0)
+        if (not write_start())
         {
             return false;
         }
 
+        write_data(data, size);
+
+        write_finalize();
+        return true;
+    }
+
+    bool Frame::write_start()
+    {
+        if (write_byte(DELIMITER) < 0)
+        {
+            return false;
+        }
+        return true;
+    }
+
+    void Frame::write_data(void const* data, int size)
+    {
         char const* pos = reinterpret_cast<char const*>(data);
         for (int i = 0; i < size; ++i)
         {
             char to_send = pos[i];
+
+            hash_->update(to_send);
             if ((to_send == DELIMITER) or (to_send == ESCAPE))
             {
                 write_byte(ESCAPE);
@@ -114,13 +137,14 @@ namespace owl
             }
             write_byte(to_send);
         }
+    }
 
-        hash_->update(data, size);
+    void Frame::write_finalize()
+    {
         uint16_t crc = hash_->finalize<uint16_t>();
         write_byte((crc & 0x00ff) >> 0);
         write_byte((crc & 0xff00) >> 8);
 
         write_byte(DELIMITER);
-        return true;
     }
 }

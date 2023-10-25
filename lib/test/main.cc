@@ -1,5 +1,5 @@
 #include "Hash.h"
-#include "Frame.h"
+#include "FrameQueue.h"
 
 using namespace owl;
 
@@ -26,17 +26,17 @@ int main(int argc, char* argv[])
         int data;
         char msg[8];
     };
-    Yolo test{0xcafe, "Hello !"};
+    Yolo test{0xcafe7d, "Hello !"};
 
     std::queue<char> channel;
-    FrameBuffer frameOut(&channel);
-    FrameBuffer frameIn(&channel);
+    FrameQueue frameOut(&channel);
+    FrameQueue frameIn(&channel);
 
     channel.push(0x7e);
     frameOut.write(&test, sizeof(Yolo));
     channel.push(0xca);
     channel.push(0xfe);
-    test.data = 0xdeca;
+    test.data = 0xdeca7e;
     frameOut.write(&test, sizeof(Yolo));
     channel.push(0xca);
     channel.push(0xfe);

@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <memory>
-#include <string>
+#include <cstdint>
 
 namespace owl
 {
@@ -14,11 +14,11 @@ namespace owl
         virtual ~Hash() = default;
 
         virtual void init() = 0;
-        virtual void update(char input) = 0;
+        virtual void update(uint8_t input) = 0;
         virtual void finalize(void* out) = 0;
         virtual int output_size() = 0;
 
-        void update(std::vector<char> const& input)
+        void update(std::vector<uint8_t> const& input)
         {
             for (auto const& c : input)
             {
@@ -28,7 +28,7 @@ namespace owl
 
         void update(void const* data, int size)
         {
-            char const* pos = reinterpret_cast<char const*>(data);
+            uint8_t const* pos = reinterpret_cast<uint8_t const*>(data);
             for (int i = 0; i < size; ++i)
             {
                 update(pos[i]);
@@ -44,7 +44,7 @@ namespace owl
         }
     };
 
-    std::unique_ptr<Hash> createHash(std::string const& function);
+    std::unique_ptr<Hash> createHash(char const* function);
 }
 
 #endif

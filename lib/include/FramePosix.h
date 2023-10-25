@@ -10,11 +10,10 @@ namespace owl
     public:
         FramePosix(int fd);
 
-    protected:
-        int write_byte(char c) override;
-        int read_byte(char& c) override;
-
     private:
+        int write_byte(uint8_t c) override;
+        int read_byte(uint8_t& c) override;
+
         int fd_;
     };
 }

@@ -1,11 +1,11 @@
 #ifndef OWL_LIB_PROTOCOL
 #define OWL_LIB_PROTOCOL
 
-#include <cstdint>
+#include "Frame.h"
 
 namespace owl
 {
-    enum class Type : uint16_t
+    enum class Type : uint8_t
     {
         TRACE = 1,
         FEEDBACK,
@@ -24,7 +24,7 @@ namespace owl
     struct Header
     {
         enum Type type;
-        uint16_t size;
+        uint8_t size;
     } __attribute__((__packed__));
 
     struct Feedback
@@ -53,15 +53,10 @@ namespace owl
         uint8_t outputs[7];
     } __attribute__((__packed__));
 
-    void write_trace(int fd, char const* message);
-    void write_feedback(int fd, Feedback const& feeback);
-
-    int readData(int fd, uint8_t* buffer, int size);
-    template<typename T>
-    int readData(int fd, T& data)
-    {
-        return readData(fd, reinterpret_cast<uint8_t*>(&data), sizeof(T));
-    }
+    void write_trace(Frame& frame, char const* message);
+    void write_feedback(Frame& frame, Feedback const& feeback);
+    void write_control(Frame& frame, Control const& control);
+    void write_refresh(Frame& frame);
 }
 
 #endif

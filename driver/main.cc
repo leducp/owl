@@ -8,6 +8,7 @@
 #include <termios.h>
 
 #include "protocol.h"
+#include "FramePosix.h"
 #include "worker.h"
 
 extern "C"
@@ -51,7 +52,7 @@ extern "C" int main(int argc, char* argv[])
     int fd;
     while (fd = open("/dev/ttyACM0", O_RDWR) < 0)
     {
-        usleep(1000);
+        blink(1, 1);
     }
     close(fd);
     fd = open("/dev/ttyACM0", O_RDWR | O_NOCTTY);
@@ -64,39 +65,35 @@ extern "C" int main(int argc, char* argv[])
     printf("START! \n");
 */
 
-    FramePosix frame(fd);
+    owl::FramePosix frame(fd);
 
     while (1)
     {
         blink(1, 1);
+        owl::write_trace(frame, "blink");
 
         if (frame.read() == false)
         {
             continue;
         }
 
-        owl::Header* header = reinterpret_cast<owl::Header*>(frame.data());
-        uint8_t* payload = reinterpret_cast<owl::Header*>(frame.data() + sizeof(owl::Header));
+        owl::Header const* header = reinterpret_cast<owl::Header const*>(frame.data());
+        uint8_t const* payload = frame.data() + sizeof(owl::Header);
 
         switch (header->type)
         {
             case owl::Type::CONTROL:
             {
-                owl::Header yolo;
-                yolo.type = owl::Type::TRACE;
-                yolo.size = 4;
-                ::write(fd, &yolo, 4);
-                ::write(fd, "ctrl", 4);
+                owl::write_trace(frame, "ctrl");
 
-                //owl::write_trace(fd, "ctrl");
-                owl::Control* control = reinterpret_cast<owl::Control*>(buffer);
+                owl::Control const* control = reinterpret_cast<owl::Control const*>(payload);
                 if (control->steps != 0)
                 {
                     struct stepper_job_s job;
                     job.steps = control->steps;
                     job.speed = control->speed;
                     owl::push_task(job);
-                    //owl::write_trace(fd, "push");
+                    owl::write_trace(frame, "push");
                 }
 
                 break;
@@ -106,6 +103,7 @@ extern "C" int main(int argc, char* argv[])
 
             }
         }
+        frame.reset();
 
         struct stepper_status_s stat = owl::status();
         owl::Feedback feedback;
@@ -121,9 +119,9 @@ extern "C" int main(int argc, char* argv[])
             }
         }
 
-        owl::write_feedback(fd, feedback);
+        owl::write_feedback(frame, feedback);
 
-        tcflush(fd, TCIOFLUSH);
+        //tcflush(fd, TCIOFLUSH);
     }
 
     return 0;

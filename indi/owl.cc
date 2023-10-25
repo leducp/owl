@@ -3,6 +3,8 @@
 #include "config.h"
 #include <connectionplugins/connectionserial.h>
 
+using namespace owl;
+
 // We declare an auto pointer to MyCustomDriver.
 static std::unique_ptr<Owl> owl_driver = std::make_unique<Owl>();
 
@@ -78,26 +80,28 @@ void Owl::TimerHit()
         return;
     }
 
-    TemperatureN[0].value = 25.0 + rand() % 10 / 10.0; 
+    TemperatureN[0].value = 25.0 + rand() % 10 / 10.0;
     IDSetNumber(&TemperatureNP, nullptr);
 
-    refresh();
+    owl::write_refresh(frame_);
 
-    owl::Header header;
-    char buffer[256];
-    while (readFrame(header, buffer))
+    while (frame_.read())
     {
-        switch (header.type)
+        LOG_INFO("Get frame!");
+
+        owl::Header const* header = reinterpret_cast<owl::Header const*>(frame_.data());
+        uint8_t const* payload = frame_.data() + sizeof(owl::Header);
+
+        switch (header->type)
         {
             case owl::Type::TRACE:
             {
-                buffer[255] = 0;
-                LOGF_INFO("Trace: %.*s", header.size, buffer);
+                LOGF_INFO("Trace: %.*s", header->size, payload);
                 break;
             }
             case owl::Type::FEEDBACK:
             {
-                owl::Feedback* feedback = reinterpret_cast<owl::Feedback*>(buffer);
+                owl::Feedback const* feedback = reinterpret_cast<owl::Feedback const*>(payload);
                 LOGF_INFO("Feedback! %d %d", feedback->focus_state, feedback->focus_pos);
                 FocusRelPosN[0].value = feedback->focus_pos;
                 switch (feedback->focus_state)
@@ -107,7 +111,7 @@ void Owl::TimerHit()
                     case owl::State::READY: { FocusRelPosNP.s = IPS_OK;     break; }
                 }
                 IDSetNumber(&FocusRelPosNP, nullptr);
-                
+
                 break;
             }
             default:
@@ -115,74 +119,10 @@ void Owl::TimerHit()
 
             }
         }
+        frame_.reset();
     }
 
     SetTimer(getCurrentPollingPeriod());
-}
-
-int Owl::readData(char* buffer, int size, int timeout, bool abort)
-{
-    int r;
-    int count = 0;
-
-    while (count < size)
-    {
-        int result = tty_read(PortFD, buffer + count, size - count, timeout, &r);
-        count += r;
-        if (abort and count == 0)
-        {
-            return 0;
-        }
-
-        if (timeout > 0 and result != TTY_OK)
-        {
-            return 0;
-        }
-    }
-
-    return count;
-}
-
-int Owl::readFrame(owl::Header& header, char* buffer)
-{
-    int res = readData((char*)&header, sizeof(owl::Header), 0, true);
-    if (res == 0)
-    {
-        LOG_INFO("nothing");
-        return 0;
-    }
-    
-    LOGF_INFO("read %d", header.size);
-    return readData(buffer, header.size, 1, false);
-}
-
-void Owl::writeFrame(owl::Header const& header, char const* buffer)
-{
-    int w;
-    int count;
-    char* pos = (char*)&header;
-
-    count = 0;
-    while (count < sizeof(owl::Header))
-    {
-        tty_write(PortFD, pos + count, sizeof(owl::Header) - count, &w);
-        count += w;
-    }
-
-    count = 0;
-    while (count < header.size)
-    {
-        tty_write(PortFD, buffer + count, header.size - count, &w);
-        count += w;
-    }
-}
-
-void Owl::refresh()
-{
-    owl::Header header;
-    header.type = owl::Type::REFRESH;
-    header.size = 0;
-    writeFrame(header, nullptr);
 }
 
 bool Owl::ISNewNumber(const char *dev, const char *name, double values[], char *names[], int n)
@@ -201,12 +141,7 @@ IPState Owl::MoveRelFocuser(FocusDirection dir, uint32_t ticks)
     {
         control.steps = ticks;
     }
-
-    owl::Header header;
-    header.type = owl::Type::CONTROL;
-    header.size = sizeof(owl::Control);
-
-    writeFrame(header, (char*)&control);
+    owl::write_control(frame_, control);
     FocusRelPosNP.s = IPS_BUSY;
     return IPS_BUSY;
 }
@@ -219,6 +154,7 @@ bool Owl::SetFocuserSpeed(int speed)
 
 bool Owl::Handshake()
 {
+    frame_.setPort(PortFD);
     LOG_INFO("handshake!");
     return true;
 }

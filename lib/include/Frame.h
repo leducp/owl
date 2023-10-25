@@ -3,16 +3,15 @@
 
 #include <cstring>
 #include <cstdint>
-#include <queue>
 #include "Hash.h"
 
 namespace owl
 {
     class Frame
     {
-        static constexpr int MAX_SIZE = 128;
-        static constexpr char DELIMITER = 0x7e;
-        static constexpr char ESCAPE = 0x7d;
+        static const int MAX_SIZE = 128;
+        static const char DELIMITER = 0x7e;
+        static const char ESCAPE = 0x7d;
     public:
         Frame();
         virtual ~Frame() = default;
@@ -33,53 +32,29 @@ namespace owl
             return true;
         }
 
+        /// Read data. return true if a frame is ready to work on.
         bool read();
+
+        // Write a whole frame in a row
         bool write(void const* data, int size);
 
-        char const* data() const { return data_.data(); }
+        bool write_start();
+        void write_data(void const* data, int size);
+        void write_finalize();
+
+        uint8_t const* data() const { return data_.data(); }
         std::size_t size() const { return data_.size(); }
 
     protected:
-        virtual int write_byte(char c) = 0;
-        virtual int read_byte(char& c) = 0;
+        virtual int write_byte(uint8_t c) = 0;
+        virtual int read_byte(uint8_t& c) = 0;
 
     private:
         std::unique_ptr<Hash> hash_{};
-        std::vector<char> data_{};
+        std::vector<uint8_t> data_{};
         bool is_started_{false};
         bool is_ready_{false};
         bool is_escaped_{false};
-    };
-
-    class FrameBuffer final : public Frame
-    {
-    public:
-        FrameBuffer(std::queue<char>* channel)
-            : channel_(channel)
-        {
-
-        }
-
-    protected:
-        int write_byte(char c) override
-        {
-            channel_->push(c);
-            return 1;
-        }
-
-        int read_byte(char& c) override
-        {
-            if (channel_->empty())
-            {
-                return -1;
-            }
-            c = channel_->front();
-            channel_->pop();
-            return 1;
-        }
-
-    private:
-        std::queue<char>* channel_;
     };
 }
 

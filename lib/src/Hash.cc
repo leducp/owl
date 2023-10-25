@@ -9,7 +9,7 @@ namespace owl
     {
     public:
         void init() override;
-        void update(char input) override;
+        void update(uint8_t input) override;
         void finalize(void* out) override;
         int output_size() override;
 
@@ -27,7 +27,7 @@ namespace owl
         return sizeof(crc_);
     }
 
-    void _crc16_x25::update(char input)
+    void _crc16_x25::update(uint8_t input)
     {
         crc_ ^= input;
         for (int i = 0; i < 8; ++i)
@@ -51,9 +51,9 @@ namespace owl
     }
 
 
-    std::unique_ptr<Hash> createHash(std::string const& function)
+    std::unique_ptr<Hash> createHash(char const* function)
     {
-        if (function == "crc16/x25")
+        if (strcmp(function, "crc16/x25") == 0)
         {
             return std::make_unique<_crc16_x25>();
         }
