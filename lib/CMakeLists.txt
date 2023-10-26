@@ -4,8 +4,11 @@ add_library(owl_protocol STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/src/FramePosix.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/src/FrameQueue.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Hash.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/os/Posix/Serial.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/os/Posix/Time.cc
     )
 target_include_directories(owl_protocol PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(owl_protocol PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/os/Posix)
 set_target_properties(owl_protocol PROPERTIES
     CXX_STANDARD 17
     CXX_STANDARD_REQUIRED YES

@@ -9,21 +9,26 @@
 
 #include "protocol.h"
 #include "FramePosix.h"
-#include "worker.h"
+#include "actuators.h"
+#include "sensors.h"
+#include "gps.h"
+#include "Time.h"
+
+using namespace std::chrono;
 
 extern "C"
 {
     #include "rp2040_gpio.h"
 }
 
-void blink(int rep, int msec)
+void blink(int rep, nanoseconds delay)
 {
     for (int i = 0; i < rep; ++i)
     {
         rp2040_gpio_put(25, true);
-        usleep(msec * 1000);
+        owl::sleep(delay);
         rp2040_gpio_put(25, false);
-        usleep(msec * 1000);
+        owl::sleep(delay);
     }
 }
 
@@ -52,30 +57,31 @@ extern "C" int main(int argc, char* argv[])
     int fd;
     while (fd = open("/dev/ttyACM0", O_RDWR) < 0)
     {
-        blink(1, 1);
+        blink(1, 5ms);
     }
     close(fd);
-    fd = open("/dev/ttyACM0", O_RDWR | O_NOCTTY);
-    owl::init();
-
+    fd = open("/dev/ttyACM0", O_RDWR | O_NOCTTY | O_NONBLOCK);
 /*
     freopen("/dev/console", "w+", stdout);
     int flags = fcntl(STDOUT_FILENO, F_GETFL);
     fcntl(STDOUT_FILENO, F_SETFL, flags | O_NONBLOCK);
+    owl::sleep(2s);
     printf("START! \n");
 */
-
+    owl::init_gps();
+    owl::init_sensors();
+    owl::init_actuators();
     owl::FramePosix frame(fd);
 
     while (1)
     {
-        blink(1, 1);
-        owl::write_trace(frame, "blink");
+        owl::sleep(10ms);
 
         if (frame.read() == false)
         {
             continue;
         }
+        blink(1, 500us);
 
         owl::Header const* header = reinterpret_cast<owl::Header const*>(frame.data());
         uint8_t const* payload = frame.data() + sizeof(owl::Header);
@@ -105,8 +111,10 @@ extern "C" int main(int argc, char* argv[])
         }
         frame.reset();
 
-        struct stepper_status_s stat = owl::status();
         owl::Feedback feedback;
+        update(feedback);
+
+        struct stepper_status_s stat = owl::status();
         feedback.focus_pos = stat.position;
         switch (stat.state)
         {
@@ -121,7 +129,9 @@ extern "C" int main(int argc, char* argv[])
 
         owl::write_feedback(frame, feedback);
 
-        //tcflush(fd, TCIOFLUSH);
+        owl::GPS gps;
+        update(gps);
+        owl::write_gps(frame, gps);
     }
 
     return 0;

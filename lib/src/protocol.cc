@@ -63,4 +63,18 @@ namespace owl
 
         frame.write_finalize();
     }
+
+    void write_gps(Frame& frame, GPS const& gps)
+    {
+        frame.write_start();
+
+        Header header;
+        header.type = Type::GPS;
+        header.size = sizeof(GPS);
+
+        frame.write_data(&header, sizeof(Header));
+        frame.write_data(&gps, header.size);
+
+        frame.write_finalize();
+    }
 }

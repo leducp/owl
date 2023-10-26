@@ -1,3 +1,6 @@
+#ifndef OWL_LIB_TIME_H
+#define OWL_LIB_TIME_H
+
 #include <chrono>
 
 namespace owl
@@ -6,3 +9,5 @@ namespace owl
 
     void sleep(nanoseconds duration);
 }
+
+#endif

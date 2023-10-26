@@ -29,18 +29,22 @@ namespace owl
 
     struct Feedback
     {
-        int32_t temperature;
-        int32_t humidity;
-        int32_t focus_pos;
+        enum State sensor_state;
+        float temperature;
+        float humidity;
+
         enum State focus_state;
+        int32_t focus_pos;
     } __attribute__((__packed__));
 
-    struct gps
+    struct GPS
     {
+        enum State state;
         float latitude;
         float longitude;
         float altitude;
         int time;
+        int date;
         int fix_quality;
         int satellites;
         float dop;
@@ -56,6 +60,7 @@ namespace owl
     void write_trace(Frame& frame, char const* message);
     void write_feedback(Frame& frame, Feedback const& feeback);
     void write_control(Frame& frame, Control const& control);
+    void write_gps(Frame& frame, GPS const& gps);
     void write_refresh(Frame& frame);
 }
 

@@ -1,4 +1,3 @@
-cmake_minimum_required(VERSION 3.12)
 project(owl_indi)
 
 # Find INDI
@@ -7,7 +6,7 @@ find_package(INDI REQUIRED)
 
 # Driver version
 set(OWL_DRIVER_VERSION_MAJOR 0)
-set(OWL_DRIVER_VERSION_MINOR 2)
+set(OWL_DRIVER_VERSION_MINOR 3)
 
 # Create the driver xml file
 configure_file(
@@ -21,16 +20,12 @@ configure_file(
     ${CMAKE_CURRENT_BINARY_DIR}/config.h
 )
 
-# Protocol
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../lib ${CMAKE_BINARY_DIR}/protocol)
-
 # indi driver
 add_executable(indi_owl ${CMAKE_CURRENT_SOURCE_DIR}/owl.cc ${CMAKE_CURRENT_SOURCE_DIR}/FrameIndi.cc)
-target_include_directories(indi_owl PRIVATE  ${INDI_INCLUDE_DIR} ${CMAKE_BINARY_DIR})
-target_include_directories(owl_protocol PRIVATE  ${INDI_INCLUDE_DIR} ${CMAKE_BINARY_DIR})
+target_include_directories(indi_owl PRIVATE  ${INDI_INCLUDE_DIR} ${CMAKE_CURRENT_BINARY_DIR})
 target_link_libraries(indi_owl ${INDI_LIBRARIES} owl_protocol)
 
-# tell cmake where to install our executable
+# Install files (binary and indi xml description)
 install(TARGETS indi_owl RUNTIME DESTINATION bin)
 
 # and where to put the driver's xml file.

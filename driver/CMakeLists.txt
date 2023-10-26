@@ -1,6 +1,9 @@
-add_executable(owl  ${CMAKE_CURRENT_SOURCE_DIR}/main.cc
+add_executable(owl
+    ${CMAKE_CURRENT_SOURCE_DIR}/main.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/stepper.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/worker.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/actuators.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/sensors.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/gps.cc
     )
 target_include_directories(owl PRIVATE  ${CMAKE_CURRENT_SOURCE_DIR})
 set_target_properties(owl PROPERTIES

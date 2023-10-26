@@ -1,5 +1,4 @@
 #include "Frame.h"
-#include <indidevapi.h>
 
 namespace owl
 {
@@ -37,7 +36,6 @@ namespace owl
                 is_started_ = true;
             }
         }
-        IDLog("started!\n");
 
         while (true)
         {
@@ -46,7 +44,6 @@ namespace owl
             {
                 return false;
             }
-            IDLog("got %x %c\n", c, c);
 
             if (is_escaped_)
             {
@@ -76,7 +73,6 @@ namespace owl
                 uint16_t computedCRC = hash_->finalize<uint16_t>();
 
                 // compare CRC
-                IDLog("CRC %x %x\n", crc, computedCRC);
                 if (crc != computedCRC)
                 {
                     //printf("wrong CRC (%02x vs %02x) - %d\n",
