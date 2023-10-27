@@ -11,11 +11,12 @@
 
 #include "gps.h"
 #include "Time.h"
+#include "os/Mutex.h"
 
 namespace owl
 {
     static pthread_t thread;
-    static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+    static Mutex mutex{};
 
     static GPS gps;
 
@@ -134,15 +135,17 @@ namespace owl
                     longitude = -longitude;
                 }
 
-                pthread_mutex_lock(&mutex);
-                gps.time        = fix_time;
-                gps.latitude    = latitude;
-                gps.longitude   = longitude;
-                gps.altitude    = MSL;
-                gps.fix_quality = fix_quality;
-                gps.satellites  = satellites;
-                gps.dop         = DOP;
-                pthread_mutex_unlock(&mutex);
+                {
+                    LockGuard guard(mutex);
+
+                    gps.time        = fix_time;
+                    gps.latitude    = latitude;
+                    gps.longitude   = longitude;
+                    gps.altitude    = MSL;
+                    gps.fix_quality = fix_quality;
+                    gps.satellites  = satellites;
+                    gps.dop         = DOP;
+                }
 
                 printf("---- INFO ----\n");
                 printf("time    :  %d\n", fix_time);
@@ -159,9 +162,10 @@ namespace owl
                 int date = 0;
                 extract(8, date);
 
-                pthread_mutex_lock(&mutex);
-                gps.date = date;
-                pthread_mutex_unlock(&mutex);
+                {
+                    LockGuard guard(mutex);
+                    gps.date = date;
+                }
                 printf("Date:   %d\n", date);
             }
         }
@@ -174,20 +178,7 @@ namespace owl
 
     void update(GPS& gps_out)
     {
-        pthread_mutex_lock(&mutex);
+        LockGuard guard(mutex);
         gps_out = gps;
-        pthread_mutex_unlock(&mutex);
     }
 }
-
-/*
----- INFO ----
-time    :  162043
-latitude:  45.761253
-longitude: 2.126517
-fix:   1
-sats : 9
-DOP:   0.960
-MSL:   837.000
-
-*/

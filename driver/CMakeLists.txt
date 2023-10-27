@@ -15,3 +15,10 @@ set_target_properties(owl PROPERTIES
 )
 
 target_link_libraries(owl owl_protocol)
+add_custom_command(
+    TARGET owl
+    POST_BUILD
+    WORKING_DIRECTORY "${CMAKE_BINARY_DIR}"
+    COMMAND ${CMAKE_OBJCOPY}
+    ARGS -O binary owl owl.bin
+)

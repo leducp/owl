@@ -40,7 +40,7 @@ extern "C" int main(int argc, char* argv[])
         perror("INIT\n");
         return ret;
     }
-
+/*
     struct boardioc_usbdev_ctrl_s ctrl;
     void *handle;
     ctrl.usbdev   = BOARDIOC_USBDEV_CDCACM;
@@ -61,6 +61,10 @@ extern "C" int main(int argc, char* argv[])
     }
     close(fd);
     fd = open("/dev/ttyACM0", O_RDWR | O_NOCTTY | O_NONBLOCK);
+    */
+
+   blink(100, 10ms);
+   int fd = open("/dev/ttyS0", O_RDWR | O_NOCTTY | O_NONBLOCK);
 /*
     freopen("/dev/console", "w+", stdout);
     int flags = fcntl(STDOUT_FILENO, F_GETFL);

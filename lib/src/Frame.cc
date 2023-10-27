@@ -120,10 +120,10 @@ namespace owl
 
     void Frame::write_data(void const* data, int size)
     {
-        char const* pos = reinterpret_cast<char const*>(data);
+        uint8_t const* pos = reinterpret_cast<uint8_t const*>(data);
         for (int i = 0; i < size; ++i)
         {
-            char to_send = pos[i];
+            uint8_t to_send = pos[i];
 
             hash_->update(to_send);
             if ((to_send == DELIMITER) or (to_send == ESCAPE))

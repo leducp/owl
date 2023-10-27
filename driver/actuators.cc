@@ -1,6 +1,6 @@
 #include <semaphore.h>
 #include <pthread.h>
-#include <queue>
+#include <list>
 
 extern "C"
 {
@@ -8,14 +8,16 @@ extern "C"
 }
 
 #include "actuators.h"
+#include "os/Mutex.h"
 
 namespace owl
 {
     static pthread_t thread;
     static sem_t sem;
-    static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
-    static stepper_status_s stepper_status;
-    static std::queue<stepper_job_s> jobs;
+    static Mutex mutex{};
+    static stepper_status_s stepper_status{};
+    static std::list<stepper_job_s> jobs{};
+    static stepper_job_s test_job{};
 
     static void* worker(void* arg)
     {
@@ -25,11 +27,13 @@ namespace owl
         {
             sem_wait(&sem);
 
-            pthread_mutex_lock(&mutex);
-            stepper_job_s job = jobs.front();
-            jobs.pop();
-            stepper_status.state = STEPPER_STATE_RUN;
-            pthread_mutex_unlock(&mutex);
+            stepper_job_s job;
+            {
+                LockGuard guard(mutex);
+                job = jobs.back();
+                jobs.pop_back();
+                stepper_status.state = STEPPER_STATE_RUN;
+            }
 
             int ret = write(stepper, &job, sizeof(stepper_job_s)); /* blocking */
             if (ret != sizeof(stepper_job_s))
@@ -38,13 +42,17 @@ namespace owl
                 //printf("write: %s\n", strerror(errno));
             }
 
-            pthread_mutex_lock(&mutex);
-            ret = read(stepper, &stepper_status, sizeof(stepper_status_s));
-            pthread_mutex_unlock(&mutex);
+            stepper_status_s status;
+            ret = read(stepper, &status, sizeof(stepper_status_s));
             if (ret != sizeof(stepper_status_s))
             {
                 //TODO write TRACE
                 //printf("write: %s\n", strerror(errno));
+            }
+
+            {
+                LockGuard guard(mutex);
+                stepper_status = status;
             }
         }
     }
@@ -57,19 +65,18 @@ namespace owl
 
     void push_task(stepper_job_s const& job)
     {
-        pthread_mutex_lock(&mutex);
-        jobs.push(job);
-        pthread_mutex_unlock(&mutex);
+        {
+            LockGuard guard(mutex);
+            jobs.push_front(job);
+        }
 
         sem_post(&sem);
     }
 
     stepper_status_s status()
     {
-        pthread_mutex_lock(&mutex);
+        LockGuard guard(mutex);
         struct stepper_status_s stat = stepper_status;
-        pthread_mutex_unlock(&mutex);
-
         return stat;
     }
 }

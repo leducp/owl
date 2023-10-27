@@ -22,7 +22,9 @@ namespace owl
     int FrameIndi::write_byte(uint8_t c)
     {
         int w;
+        //IDLog("write before %x\n", c);
         tty_write(fd_, (char*)&c, 1, &w);
+        //IDLog("write done: %d\n", w);
         if (w == 0)
         {
             return -1;
@@ -38,7 +40,7 @@ namespace owl
         {
             return -1;
         }
-        //LOGF_INFO("read %x\n", c);
+        IDLog("read %x (%d)\n", c, r);
         return 1;
     }
 }

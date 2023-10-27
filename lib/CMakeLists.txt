@@ -4,6 +4,8 @@ add_library(owl_protocol STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/src/FramePosix.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/src/FrameQueue.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Hash.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/os/Mutex.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/os/Posix/Mutex.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/src/os/Posix/Serial.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/src/os/Posix/Time.cc
     )

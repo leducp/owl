@@ -12,11 +12,12 @@ extern "C"
 
 #include "sensors.h"
 #include "Time.h"
+#include "os/Mutex.h"
 
 namespace owl
 {
     static pthread_t thread;
-    static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+    static Mutex mutex{};
 
     static Feedback feedback;
 
@@ -55,9 +56,10 @@ namespace owl
                 feedback_tmp.humidity    = data.humidity;
             }
 
-            pthread_mutex_lock(&mutex);
-            feedback = feedback_tmp;
-            pthread_mutex_unlock(&mutex);
+            {
+                LockGuard guard(mutex);
+                feedback = feedback_tmp;
+            }
 
             printf("temperature: %f\n", data.temperature);
             printf("humidity:    %f\n", data.humidity);
@@ -81,8 +83,7 @@ namespace owl
 
     void update(Feedback& feedback_out)
     {
-        pthread_mutex_lock(&mutex);
+        LockGuard guard(mutex);
         feedback_out = feedback;
-        pthread_mutex_unlock(&mutex);
     }
 }

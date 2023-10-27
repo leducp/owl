@@ -137,17 +137,21 @@ bool Owl::updateProperties()
 
 void Owl::TimerHit()
 {
+    IDLog("TimerHit\n");
     if (not isConnected())
     {
+        IDLog("Not connected\n");
         SetTimer(getCurrentPollingPeriod());
         return;
     }
+    IDLog("Connected\n");
 
     TemperatureN[0].value = 25.0 + rand() % 10 / 10.0;
     IDSetNumber(&TemperatureNP, nullptr);
 
     owl::write_refresh(frame_);
 
+    IDLog("read loop\n");
     while (frame_.read())
     {
         owl::Header const* header = reinterpret_cast<owl::Header const*>(frame_.data());
