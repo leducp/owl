@@ -68,7 +68,7 @@ namespace owl
         }
     }
 
-    void init_sensors()
+    int init_sensors()
     {
         file filep;
         file_open(&filep, "/dev/i2c1", O_RDWR);
@@ -79,6 +79,7 @@ namespace owl
         file_close(&filep);
 
         pthread_create(&thread, nullptr, worker, nullptr);
+        return -1;
     }
 
     void update(Feedback& feedback_out)

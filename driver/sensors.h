@@ -5,7 +5,7 @@
 
 namespace owl
 {
-    void init_sensors();
+    int init_sensors();
     void update(Feedback& feedback);
 }
 

@@ -171,9 +171,10 @@ namespace owl
         }
     }
 
-    void init_gps()
+    int init_gps()
     {
         pthread_create(&thread, nullptr, worker, nullptr);
+        return 0;
     }
 
     void update(GPS& gps_out)

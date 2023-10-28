@@ -5,7 +5,7 @@
 
 namespace owl
 {
-    void init_gps();
+    int init_gps();
     void update(GPS& gps);
 }
 

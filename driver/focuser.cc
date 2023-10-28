@@ -7,7 +7,7 @@ extern "C"
     #include "stepper.h"
 }
 
-#include "actuators.h"
+#include "focuser.h"
 #include "os/Mutex.h"
 
 namespace owl
@@ -57,10 +57,11 @@ namespace owl
         }
     }
 
-    void init_actuators()
+    int init_focuser()
     {
         sem_init(&sem, 0, 0);
         pthread_create(&thread, nullptr, worker, nullptr);
+        return 0;
     }
 
     void push_task(stepper_job_s const& job)
@@ -73,10 +74,12 @@ namespace owl
         sem_post(&sem);
     }
 
-    stepper_status_s status()
+    void update(stepper_status_s& status)
     {
-        LockGuard guard(mutex);
-        struct stepper_status_s stat = stepper_status;
-        return stat;
+        {
+            LockGuard guard(mutex);
+            status = stepper_status;
+        }
+        sem_post(&sem);
     }
 }
