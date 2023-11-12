@@ -1,10 +1,13 @@
 #include "Hash.h"
 #include "FrameQueue.h"
+#include "cobd.h"
+#include <cstdio>
 
 using namespace owl;
 
 int main(int argc, char* argv[])
 {
+    /*
     auto crcx25 = createHash("crc16/x25");
 
     auto test_x25 = [&](std::vector<char> const& data)
@@ -50,6 +53,37 @@ int main(int argc, char* argv[])
 
         printf("yay %x %s\n", rec.data, rec.msg);
     }
+    */
+   //std::vector<uint8_t> data{0x23, 0x00, 0xd4, 0x81, 0x00, 0xfa};
+    /*
+    std::vector<uint8_t> data;
+    for (int i = 0; i < 256; ++i)
+    {
+        data.push_back(i);
+    }
+    */
+    std::vector<uint8_t> data{0x00, 0x11, 0x11, 0x00, 0x22, 0x22, 0x00 };
+    auto result = encode(data);
+
+    printf("     ");
+    for (auto const& byte : data)
+    {
+            printf("0x%02x ", byte);
+    }
+    printf("\n");
+    for (auto const& byte : result)
+    {
+            printf("0x%02x ", byte);
+    }
+    printf("\n");
+
+    auto unstuff = decode(result);
+    printf("     ");
+    for (auto const& byte : unstuff)
+    {
+            printf("0x%02x ", byte);
+    }
+    printf("\n");
 
     return 0;
 }

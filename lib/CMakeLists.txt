@@ -1,5 +1,6 @@
 add_library(owl_protocol STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/src/protocol.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/cobd.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Frame.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/src/FramePosix.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/src/FrameQueue.cc
@@ -19,5 +20,5 @@ set_target_properties(owl_protocol PROPERTIES
     POSITION_INDEPENDENT_CODE ON
 )
 
-#add_executable(owl_test ${CMAKE_CURRENT_SOURCE_DIR}/test/main.cc)
-#target_link_libraries(owl_test owl_protocol)
+add_executable(owl_test ${CMAKE_CURRENT_SOURCE_DIR}/test/main.cc)
+target_link_libraries(owl_test owl_protocol)
